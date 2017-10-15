@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>jfree</groupId>
+  <artifactId>jfreechart</artifactId>
+  <version>1.0.14</version>
+  <versioning>
+    <versions>
+      <version>1.0.14</version>
+      <version>1.0.14-experimental</version>
+      <version>1.0.14-swt</version>
+    </versions>
+    <lastUpdated>20121207171212</lastUpdated>
+  </versioning>
+</metadata>

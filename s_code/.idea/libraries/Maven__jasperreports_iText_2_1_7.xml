@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: jasperreports:iText:2.1.7">
+    <CLASSES>
+      <root url="jar://$M2_REPO$/jasperreports/iText/2.1.7/iText-2.1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$M2_REPO$/jasperreports/iText/2.1.7/iText-2.1.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$M2_REPO$/jasperreports/iText/2.1.7/iText-2.1.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

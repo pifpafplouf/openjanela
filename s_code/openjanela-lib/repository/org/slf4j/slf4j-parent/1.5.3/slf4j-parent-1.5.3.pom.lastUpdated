@@ -1,0 +1,15 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Thu Apr 04 00:25:10 GMT-06:00 2013
+https\://repository.jboss.org/nexus/content/groups/public-jboss/.error=
+https\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1365056709097
+http\://http\://52north.org/maven/repo/releases/.error=Could not transfer artifact org.slf4j\:slf4j-parent\:pom\:1.5.3 from/to 52north.org (http\://http\://52north.org/maven/repo/releases)\: http
+http\://download.java.net/maven/2/.lastUpdated=1365056708679
+http\://repo.maven.apache.org/maven2/.lastUpdated=1365056710639
+http\://repository.primefaces.org/.error=
+default-http\://http\://52north.org/maven/repo/releases/.lastUpdated=1365056709523
+http\://download.java.net/maven/2/.error=
+http\://informatics.mayo.edu/maven/content/groups/public/.lastUpdated=1365056709718
+https\://repository.jboss.org/nexus/content/groups/public-jboss/.lastUpdated=1365056709504
+http\://informatics.mayo.edu/maven/content/groups/public/.error=
+http\://repository.primefaces.org/.lastUpdated=1365056710246
+https\://repository.jboss.org/nexus/content/groups/public/.error=

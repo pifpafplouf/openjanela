@@ -1,0 +1,11 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Mon Feb 18 18:14:16 GMT-06:00 2013
+https\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1361232847688
+http\://http\://52north.org/maven/repo/releases/.error=Could not transfer artifact commons-logging\:commons-logging\:pom\:1.0.2 from/to 52north.org (http\://http\://52north.org/maven/repo/releases)\: http
+http\://download.java.net/maven/2/.lastUpdated=1361232846826
+http\://repo.maven.apache.org/maven2/.lastUpdated=1361232856056
+default-http\://http\://52north.org/maven/repo/releases/.lastUpdated=1361232850272
+http\://download.java.net/maven/2/.error=
+http\://informatics.mayo.edu/maven/content/groups/public/.lastUpdated=1361232850518
+http\://informatics.mayo.edu/maven/content/groups/public/.error=
+https\://repository.jboss.org/nexus/content/groups/public/.error=

@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>net.sf.doolin</groupId>
+	<artifactId>javadocking</artifactId>
+	<version>1.4.2</version>
+
+	<name>Javadocking</name>
+	<description>Sanaware Java Docking is a library for managing the windows of a Java Swing application.</description>
+
+	<developers>
+		<developer>
+			<name>Heidi Rakels</name>
+			<email>info AT javadocking DOT com</email>
+		</developer>
+	</developers>
+
+	<url>http://www.javadocking.com/</url>
+	
+	<licenses>
+		<license>
+			<name>GNU GENERAL PUBLIC LICENSE</name>
+			<url>http://www.gnu.org/licenses/gpl.html</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	
+	<scm>
+		<connection>-</connection>
+		<developerConnection>-</developerConnection>
+		<url>-</url>
+	</scm>
+
+</project>

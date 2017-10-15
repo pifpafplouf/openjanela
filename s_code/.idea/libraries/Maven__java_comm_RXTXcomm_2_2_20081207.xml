@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: java.comm:RXTXcomm:2-2-20081207">
+    <CLASSES>
+      <root url="jar://$M2_REPO$/java/comm/RXTXcomm/2-2-20081207/RXTXcomm-2-2-20081207.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$M2_REPO$/java/comm/RXTXcomm/2-2-20081207/RXTXcomm-2-2-20081207-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$M2_REPO$/java/comm/RXTXcomm/2-2-20081207/RXTXcomm-2-2-20081207-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

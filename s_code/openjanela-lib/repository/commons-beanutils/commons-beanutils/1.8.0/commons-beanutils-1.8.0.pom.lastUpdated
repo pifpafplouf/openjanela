@@ -1,0 +1,11 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Dec 07 21:49:50 CST 2012
+https\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1354938589824
+http\://http\://52north.org/maven/repo/releases/.error=Could not transfer artifact commons-beanutils\:commons-beanutils\:pom\:1.8.0 from/to 52north.org (http\://http\://52north.org/maven/repo/releases)\: http
+http\://download.java.net/maven/2/.lastUpdated=1354938589267
+http\://repo.maven.apache.org/maven2/.lastUpdated=1354938590448
+default-http\://http\://52north.org/maven/repo/releases/.lastUpdated=1354938589849
+http\://download.java.net/maven/2/.error=
+http\://informatics.mayo.edu/maven/content/groups/public/.lastUpdated=1354938590128
+http\://informatics.mayo.edu/maven/content/groups/public/.error=
+https\://repository.jboss.org/nexus/content/groups/public/.error=

@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>openjanela-project</artifactId>
+		<groupId>openjanela</groupId>
+		<version>2.2</version>
+	</parent>
+
+	<groupId>openjanela</groupId>
+	<artifactId>openjanela-app</artifactId>
+	<version>2.2</version>
+	<name>OPENJANELA-APP</name>
+	<packaging>jar</packaging>
+
+	<dependencies>
+
+		<!-- ============================================= -->
+		<!-- PROJECT DEPENDENCIES -->
+		<!-- ============================================= -->
+		<dependency>
+			<groupId>openjanela</groupId>
+			<artifactId>openjanela-model</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>openjanela</groupId>
+			<artifactId>openjanela-commons-util</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>openjanela</groupId>
+			<artifactId>openjanela-commons-components</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.java.net.substance</groupId>
+			<artifactId>substance</artifactId>
+		</dependency>
+
+		<!-- OPENJANELA PERSISTENCE DEPENDENCIES -->
+        <dependency>
+            <groupId>org.hibernate.javax.persistence</groupId>
+            <artifactId>hibernate-jpa-2.1-api</artifactId>
+        </dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>${hibernate-validator-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-c3p0</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-jpamodelgen</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.swinglabs</groupId>
+			<artifactId>swingx</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.swinglabs</groupId>
+			<artifactId>swingx-beaninfo</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.pushing-pixels</groupId>
+			<artifactId>trident</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>erpiccolo</groupId>
+			<artifactId>erpiccoloresources</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mozilla.javascript</groupId>
+			<artifactId>js</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>cobra</groupId>
+			<artifactId>cobra-no-commons</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+		</dependency>
+
+		<!-- ========================================= -->
+		<!-- PNG ENCODER -->
+		<!-- ========================================= -->
+        <dependency>
+            <groupId>com.objectplanet.image.PngEncoder</groupId>
+            <artifactId>com.objectplanet.image.PngEncoder</artifactId>
+        </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>batik</groupId>-->
+            <!--<artifactId>batik</artifactId>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>batik</groupId>-->
+            <!--<artifactId>batik-swing</artifactId>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>batik</groupId>-->
+            <!--<artifactId>batik-bridge</artifactId>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>w3c</groupId>-->
+            <!--<artifactId>w3c</artifactId>-->
+            <!--<version>1.7</version>-->
+        <!--</dependency>-->
+
+        <dependency>
+			<groupId>de.congrace</groupId>
+			<artifactId>exp4j</artifactId>
+		</dependency>
+
+		<!-- ========================================= -->
+		<!-- UNIT TESTING -->
+		<!-- ========================================= -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>4.7</version>
+			<classifier>jdk15</classifier>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+	<!-- ================================================== -->
+	<!-- BUILD PLUGIN MANAGEMENT -->
+	<!-- ================================================== -->
+	<build>
+
+		<finalName>${project.artifactId}-${project.version}-r${buildNumber}</finalName>
+
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>buildnumber-maven-plugin</artifactId>
+				<version>1.2</version>
+				<executions>
+					<execution>
+						<phase>validate</phase>
+						<goals>
+							<goal>create</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<format>{0,date,yyyy-MM-dd}</format>
+					<items>
+						<item>timestamp</item>
+					</items>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>2.2</version>
+			</plugin>
+
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<descriptor>assembly.xml</descriptor>
+				</configuration>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>Presentation.Draw</mainClass>
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>lib</classpathPrefix>
+						</manifest>
+
+						<manifestSections>
+							<manifestSection>
+								<name>Implementation-Service</name>
+								<manifestEntries>
+									<Implementation-Tittle>${project.name}</Implementation-Tittle>
+									<Implementation-Vendor>${project.organization.name}</Implementation-Vendor>
+									<Implementation-Version>${project.version}</Implementation-Version>
+								</manifestEntries>
+							</manifestSection>
+						</manifestSections>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+		<pluginManagement>
+			<plugins>
+				<!--This plugin's configuration is used to store Eclipse m2e settings 
+					only. It has no influence on the Maven build itself. -->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											org.apache.maven.plugins
+										</groupId>
+										<artifactId>
+											maven-dependency-plugin
+										</artifactId>
+										<versionRange>
+											[2.2,)
+										</versionRange>
+										<goals>
+											<goal>unpack</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+</project>

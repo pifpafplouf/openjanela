@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.java.net.substance:substance-extras:5.3final">
+    <CLASSES>
+      <root url="jar://$M2_REPO$/org/java/net/substance/substance-extras/5.3final/substance-extras-5.3final.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$M2_REPO$/org/java/net/substance/substance-extras/5.3final/substance-extras-5.3final-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$M2_REPO$/org/java/net/substance/substance-extras/5.3final/substance-extras-5.3final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

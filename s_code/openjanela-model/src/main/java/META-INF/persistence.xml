@@ -1,0 +1,445 @@
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+            http://www.oracle.com/webfolder/technetwork/jsc/xml/ns/persistence/persistence_2_1.xsd">
+
+    <persistence-unit name="OPENJANELA_MODELO_PERSISTENCE_UNIT" transaction-type="RESOURCE_LOCAL">
+
+        <!-- Hibernate persistence provider -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <!-- Defining class persistence Admin -->
+        <class>openjanela.model.entities.admin.Country</class>
+        <class>openjanela.model.entities.admin.CountryStates</class>
+        <class>openjanela.model.entities.admin.CountryHolidays</class>
+        <class>openjanela.model.entities.admin.CountryWeekends</class>
+        <class>openjanela.model.entities.admin.Currency</class>
+        <class>openjanela.model.entities.admin.MathOperator</class>
+        <class>openjanela.model.entities.admin.Partners</class>
+        <class>openjanela.model.entities.admin.SystemMeasurement</class>
+        <class>openjanela.model.entities.admin.SystemModule</class>
+        <class>openjanela.model.entities.admin.SystemRolesAction</class>
+        <class>openjanela.model.entities.admin.SystemUOM</class>
+        <class>openjanela.model.entities.admin.TypeEndType</class>
+        <class>openjanela.model.entities.admin.TypeBaseUom</class>
+        <class>openjanela.model.entities.admin.TypeCondition</class>
+        <class>openjanela.model.entities.admin.TypeDelimiters</class>
+        <class>openjanela.model.entities.admin.TypeLanguage</class>
+        <class>openjanela.model.entities.admin.TypeGlazing</class>
+        <class>openjanela.model.entities.admin.TypeGrids</class>
+        <class>openjanela.model.entities.admin.TypePart</class>
+        <class>openjanela.model.entities.admin.TypePriceCategory</class>
+        <class>openjanela.model.entities.admin.TypeOpening</class>
+        <class>openjanela.model.entities.admin.TypePrice</class>
+        <class>openjanela.model.entities.admin.TypeLevel</class>
+        <class>openjanela.model.entities.admin.TypeLevelTree</class>
+        <class>openjanela.model.entities.admin.TypeShape</class>
+        <class>openjanela.model.entities.admin.TypeDefault</class>
+        <class>openjanela.model.entities.admin.TypeReqStage</class>
+        <class>openjanela.model.entities.admin.TypePosition</class>
+        <class>openjanela.model.entities.admin.TypeResource</class>
+        <class>openjanela.model.entities.admin.TypeResourceFunction</class>
+        <class>openjanela.model.entities.admin.TypeWildCard</class>
+
+        <class>openjanela.model.entities.admin.UserAdmin</class>
+        
+        <class>openjanela.model.entities.partner.TypeMatrix</class>
+        <class>openjanela.model.entities.partner.TypeMatrixDefine</class>
+        <class>openjanela.model.entities.partner.TypeMatrixDiccionary</class>
+        <class>openjanela.model.entities.partner.TypeMathOperands</class>
+
+        <class>openjanela.model.entities.admin.TypeDocument</class>
+        <class>openjanela.model.entities.admin.TypeOption</class>
+        <class>openjanela.model.entities.partner.TypeMatrixCell</class>
+
+        <class>openjanela.model.entities.admin.AppCurrency</class>
+		<class>openjanela.model.entities.admin.SystemRoles</class>
+		<class>openjanela.model.entities.admin.SystemModuleAction</class>
+		        
+        <!-- Exclude unlist classes -->
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+
+        <!-- Cacheable mode entities -->
+        <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>
+        <!-- Validation mode entities -->
+        <!--validation-mode>CALLBACK</validation-mode-->
+
+        <properties>
+
+            <!-- SQL stdout logging -->
+            <property name="hibernate.show_sql" value="false"/>
+            <property name="hibernate.format_sql" value="false"/>
+            <property name="use_sql_comments" value="false"/>
+
+            <property name="hibernate.validator.apply_to_ddl" value="false"/>
+            <property name="hibernate.validator.autoregister_listeners" value="false"/>
+
+            <!-- SQL Connection properties -->
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
+            <!--  <property name="hibernate.connection.url" value="jdbc:mysql://188.138.116.10:3306/openjanela_partner_01"/>
+            <property name="hibernate.connection.username" value="openjanela"/>
+            <property name="hibernate.connection.password" value="openjanela"/>
+            -->
+            <!--<property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/openjanela_partner_01"/>-->
+            <!--<property name="hibernate.connection.username" value="root"/>-->
+            <!--<property name="hibernate.connection.password" value="root"/>-->
+
+            <!-- Hibernate Dialect -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLMyISAMDialect"/>
+
+            <!-- On deployment of this persistence unit, drop and then re-create all tables -->
+            <property name="hibernate.hbm2ddl.auto" value="none"/>
+
+            <!--<property name="hibernate.cache.use_second_level_cache"  value="true"/>-->
+            <!--<property name="hibernate.cache.use_query_cache"  value="true"/>-->
+            <!--<property name="hibernate.cache.region.factory_class" value="org.hibernate.cache.ehcache.EhCacheRegionFactory"/>-->
+            <!--<property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/openjanela_partner_01"/>-->
+            <!--<property name="hibernate.connection.username" value="root"/>-->
+            <!--<property name="hibernate.connection.password" value="root"/>-->
+
+            <!-- Hibernate Statistics -->
+            <!--<property name="hibernate.generate_statistics" value="true"/>-->
+
+            <!-- Hibernate Encoding -->
+            <property name="hibernate.connection.CharSet" value="utf8"/>
+            <property name="hibernate.connection.characterEncoding" value="utf8"/>
+            <property name="hibernate.connection.useUnicode" value="true"/>
+
+            <!-- Hibernate Cache -->
+            <property name="hibernate.cache.use_second_level_cache" value="true"/>
+            <property name="hibernate.cache.use_query_cache" value="true"/>
+            <property name="hibernate.cache.region.factory_class" value="org.hibernate.cache.ehcache.EhCacheRegionFactory"/>
+            <!--<property name="hibernate.cache.region.jbc2.cachefactory" value="java:CacheManager"/>-->
+            <!--<property name="hibernate.cache.region.jbc2.cfg.entity" value="mvcc-entity"/>-->
+            <!--<property name="hibernate.cache.region.jbc2.cfg.query" value="local-query"/>-->
+            <!--<property name="hibernate.cache.region_prefix" value="tempdb"/>-->
+
+            <!-- cache configuration -->
+            <!--<property name="hibernate.cache.use_second_level_cache" value="read-write"/>-->
+            <!--<property name="hibernate.ejb.collectioncache.org.hibernate.ejb.test.Item.distributors" value="read-write, RegionName"/>-->
+
+            <!-- C3PO Config -->
+            <!--<property name="hibernate.c3p0.min_size" value="5" />-->
+            <!--<property name="hibernate.c3p0.max_size" value="20" />-->
+            <!--<property name="hibernate.c3p0.timeout" value="300" />-->
+            <!--<property name="hibernate.c3p0.max_statements" value="50" />-->
+            <!--<property name="hibernate.c3p0.idle_test_period" value="3000" />-->
+
+        </properties>
+
+    </persistence-unit>
+
+    <persistence-unit name="OPENJANELA_PARTNER_PERSISTENCE_UNIT" transaction-type="RESOURCE_LOCAL">
+
+        <!-- Hibernate persistence provider -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <!-- Defining class persistence admin -->
+        <class>openjanela.model.entities.admin.UserGroup</class>
+        <class>openjanela.model.entities.admin.UserGroups</class>
+
+        <!-- Defining class persistence design -->
+        <class>openjanela.model.entities.design.AssemblyCapacityUsageEntity</class>
+        <class>openjanela.model.entities.design.AssemblyStationUsage</class>
+        <class>openjanela.model.entities.design.AssemblyEntityObject</class>
+        <class>openjanela.model.entities.design.ConfirmAssemblyEntityObject</class>
+        <class>openjanela.model.entities.design.ConfirmedItems</class>
+        <class>openjanela.model.entities.design.ConfirmedOrders</class>
+        <class>openjanela.model.entities.design.ConstructionMap</class>
+        <class>openjanela.model.entities.design.DesignOptionEntityObject</class>
+        <class>openjanela.model.entities.design.DesignGlassEntityObject</class>
+        <class>openjanela.model.entities.design.DesignGlassRatingsEntityObject</class>
+        <class>openjanela.model.entities.design.DesignRatingsLabel</class>
+        <class>openjanela.model.entities.design.Design</class>
+        <class>openjanela.model.entities.design.DesignStdSize</class>
+        <class>openjanela.model.entities.design.DesignFamily</class>
+        <class>openjanela.model.entities.design.ShapeNotesEntityObject</class>
+        <class>openjanela.model.entities.design.BillOfMaterialEntityObject</class>
+        <class>openjanela.model.entities.orderEntry.OrderStatus</class>
+
+        <!-- Defining class persistence orderEntry -->
+        <class>openjanela.model.entities.orderEntry.Order</class>
+        <class>openjanela.model.entities.orderEntry.OrderItems</class>
+        <class>openjanela.model.entities.orderEntry.OrderItemsCart</class>
+        <class>openjanela.model.entities.orderEntry.OrdersCart</class>
+        <class>openjanela.model.entities.orderEntry.OrderType</class>
+        <class>openjanela.model.entities.orderEntry.CartDefault</class>
+        <class>openjanela.model.entities.orderEntry.CostingGroup</class>
+        <class>openjanela.model.entities.orderEntry.PricingGroup</class>
+        <class>openjanela.model.entities.orderEntry.SalesRep</class>
+        <class>openjanela.model.entities.partner.Color</class>
+        
+        <!-- Defining class persistence partner -->
+        <class>openjanela.model.entities.partner.AdjustmentRo</class>
+        <class>openjanela.model.entities.partner.Company</class>
+        <class>openjanela.model.entities.partner.CurrencyExchange</class>
+        <class>openjanela.model.entities.partner.JobItem</class>
+        <class>openjanela.model.entities.partner.GroupPricing</class>
+        <class>openjanela.model.entities.partner.Matrix</class>
+        <class>openjanela.model.entities.partner.MatrixSeries</class>
+        <class>openjanela.model.entities.partner.MatrixHeader</class>
+        <class>openjanela.model.entities.partner.OptionAnswers</class>
+        <class>openjanela.model.entities.partner.OptionDefinitions</class>
+        <class>openjanela.model.entities.partner.Partner</class>
+        <class>openjanela.model.entities.partner.PartnerAddress</class>
+        <class>openjanela.model.entities.partner.PartnerDefault</class>
+        <class>openjanela.model.entities.partner.PartnerGroupLineDiscount</class>
+        <class>openjanela.model.entities.partner.PartnerLineDiscount</class>
+        <class>openjanela.model.entities.partner.PartnerSchedulingPreferences</class>
+        <class>openjanela.model.entities.partner.PartnerHolidays</class>
+        <class>openjanela.model.entities.partner.PartnerWeekends</class>
+        <class>openjanela.model.entities.partner.PartnerType</class>
+        <class>openjanela.model.entities.partner.Contacts</class>
+        <class>openjanela.model.entities.partner.PaymentTerms</class>
+        <class>openjanela.model.entities.partner.RuleAnswers</class>
+        <class>openjanela.model.entities.partner.Rules</class>
+        <class>openjanela.model.entities.partner.RuleTest</class>
+        <class>openjanela.model.entities.partner.RuleTestValue</class>
+        <class>openjanela.model.entities.partner.Series</class>
+        <class>openjanela.model.entities.partner.SeriesAllowedSUThick</class>
+        <class>openjanela.model.entities.partner.SeriesCategory</class>
+        <class>openjanela.model.entities.partner.SeriesValidOpenings</class>
+        <class>openjanela.model.entities.partner.SeriesValidShapes</class>
+        <class>openjanela.model.entities.partner.SeriesValidOpeningShape</class>
+        <class>openjanela.model.entities.partner.SeriesValidOpeningShapeMfg</class>
+        <class>openjanela.model.entities.partner.SUFamily</class>
+        <class>openjanela.model.entities.partner.SUType</class>
+        <class>openjanela.model.entities.partner.TypeCouplerMullion</class>
+        <class>openjanela.model.entities.partner.ProductionLine</class>
+        <class>openjanela.model.entities.partner.TaxCodes</class>
+
+        <class>openjanela.model.entities.partner.TypePartner</class>
+        <class>openjanela.model.entities.partner.ValidCouplerMullions</class>
+        <class>openjanela.model.entities.partner.ValidDoors</class>
+        <class>openjanela.model.entities.partner.ValidEntries</class>
+        <class>openjanela.model.entities.partner.ValidOpenings</class>
+        <class>openjanela.model.entities.partner.ValidOrientations</class>
+        <class>openjanela.model.entities.partner.ValidSashes</class>
+        <class>openjanela.model.entities.partner.ValidShapes</class>
+        <class>openjanela.model.entities.partner.Grids</class>
+
+        <class>openjanela.model.entities.partner.MatrixHeaderObject</class>
+
+        <!-- Defining class persistence Parts -->
+        <class>openjanela.model.entities.parts.PartsFamily</class>
+        <class>openjanela.model.entities.parts.PartFamilySeries</class>
+        <class>openjanela.model.entities.parts.PartFamilyStation</class>
+        <class>openjanela.model.entities.parts.TypeAttribute</class>
+        <class>openjanela.model.entities.parts.Parts</class>
+        <class>openjanela.model.entities.parts.PartsLabelPos</class>
+        <class>openjanela.model.entities.parts.PartsCostPrice</class>
+
+        <class>openjanela.model.entities.admin.UserGroup</class>
+        <class>openjanela.model.entities.admin.UserRights</class>
+        <class>openjanela.model.entities.admin.CompanyPreferences</class>
+        <class>openjanela.model.entities.admin.CompanySchedulePreferences</class>
+        <class>openjanela.model.entities.admin.PriceChangeReason</class>
+        <class>openjanela.model.entities.admin.PriceChangeReason</class>
+        <class>openjanela.model.entities.admin.TypeProcess</class>
+
+        <class>openjanela.model.entities.production.ProductionStations</class>
+        <class>openjanela.model.entities.production.ProductionLineStation</class>
+        <class>openjanela.model.entities.design.ProfileID</class>
+        <class>openjanela.model.entities.partner.SeriesValidOpeningShapePK</class>
+        <class>openjanela.model.entities.orderEntry.OrdersCartPK</class>
+        <class>openjanela.model.entities.partner.PartnerLineDiscountPK</class>
+        <class>openjanela.model.entities.partner.RuleTestPK</class>
+        <class>openjanela.model.entities.partner.RuleTestValuePK</class>
+        <class>openjanela.model.entities.partner.PartnerGroupLineDiscountPK</class>
+        <class>openjanela.model.entities.partner.RuleAnswersPK</class>
+        <class>openjanela.model.entities.partner.JobItemPK</class>
+        <class>openjanela.model.entities.design.ConfirmedItemsPK</class>
+        <class>openjanela.model.entities.partner.RulesPK</class>
+        <class>openjanela.model.entities.partner.PartnerDefaultPK</class>
+        <class>openjanela.model.entities.design.DesignPK</class>
+        <class>openjanela.model.entities.design.DesignFamilyPK</class>
+        <class>openjanela.model.entities.orderEntry.OrderItemsPK</class>
+        <class>openjanela.model.entities.parts.PartsCostPricePK</class>
+        <class>openjanela.model.entities.orderEntry.OrderItemsCartPK</class>
+        <class>openjanela.model.entities.partner.TypeCouplerMullionPK</class>
+        <class>openjanela.model.entities.partner.SeriesValidShapesPK</class>
+        <class>openjanela.model.entities.partner.SeriesAllowedSUThickPK</class>
+        <class>openjanela.model.entities.partner.PartnerTypePK</class>
+        <class>openjanela.model.entities.partner.OptionAnswersPK</class>
+        <class>openjanela.model.entities.partner.MatrixPK</class>
+        <class>openjanela.model.entities.partner.AdjustmentRoPK</class>
+        <class>openjanela.model.entities.orderEntry.OrderPK</class>
+        <class>openjanela.model.entities.orderEntry.CartDefaultPK</class>
+        <class>openjanela.model.entities.design.ShapeObjectID</class>
+        <class>openjanela.model.entities.partner.SeriesValidOpeningsPK</class>
+        <class>openjanela.model.entities.partner.MatrixSeriesPK</class>
+        <class>openjanela.model.entities.production.ProductionLineStationPK</class>
+        
+        <!-- Defining class persistence Sales -->
+        <class>openjanela.model.entities.sales.SalesReps</class>
+        <class>openjanela.model.entities.sales.SalesRepsCommission</class>
+                
+        <!-- Exclude unlist classes -->
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+
+        <!-- Cacheable mode entities -->
+        <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>
+        <!-- Validation bean mode entities -->
+        <!--validation-mode>AUTO</validation-mode-->
+
+        <properties>
+
+            <!-- SQL stdout logging -->
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="use_sql_comments" value="false"/>
+
+            <property name="hibernate.validator.apply_to_ddl" value="false"/>
+            <property name="hibernate.validator.autoregister_listeners" value="false"/>
+
+            <!-- Hibernate Dialect -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLMyISAMDialect"/>
+
+            <!-- On deployment of this persistence unit, drop and then re-create all tables -->
+            <property name="hibernate.hbm2ddl.auto" value="none"/>
+
+            <!-- Hibernate Encoding -->
+            <property name="hibernate.connection.CharSet" value="utf8"/>
+            <property name="hibernate.connection.characterEncoding" value="utf8"/>
+            <property name="hibernate.connection.useUnicode" value="true"/>
+
+            <property name="hibernate.cache.use_second_level_cache" value="true"/>
+            <property name="hibernate.cache.use_query_cache" value="true"/>
+            <property name="hibernate.cache.region.factory_class" value="org.hibernate.cache.ehcache.EhCacheRegionFactory"/>
+
+        </properties>
+
+    </persistence-unit>
+
+    <persistence-unit name="OPENJANELA_PARTNER_REMOTE_PERSISTENCE_UNIT" transaction-type="RESOURCE_LOCAL">
+
+        <!-- Hibernate persistence provider -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <class>openjanela.model.entities.admin.CompanySchedulePreferences</class>
+
+        <class>openjanela.model.entities.partner.AdjustmentRo</class>
+
+        <class>openjanela.model.entities.partner.GroupPricing</class>
+        <class>openjanela.model.entities.partner.Grids</class>
+        <class>openjanela.model.entities.partner.Matrix</class>
+        <class>openjanela.model.entities.partner.MatrixSeries</class>
+        <class>openjanela.model.entities.partner.MatrixHeader</class>
+        <class>openjanela.model.entities.partner.OptionAnswers</class>
+        <class>openjanela.model.entities.partner.OptionDefinitions</class>
+        <class>openjanela.model.entities.partner.Partner</class>
+        <class>openjanela.model.entities.partner.PartnerAddress</class>
+        <class>openjanela.model.entities.partner.PartnerHolidays</class>
+        <class>openjanela.model.entities.partner.PartnerWeekends</class>
+        <class>openjanela.model.entities.partner.PartnerSchedulingPreferences</class>
+        <class>openjanela.model.entities.partner.Contacts</class>
+        <class>openjanela.model.entities.partner.Color</class>
+
+        <!-- Defining class persistence Parts -->
+        <class>openjanela.model.entities.parts.PartsFamily</class>
+        <class>openjanela.model.entities.parts.PartFamilySeries</class>
+        <class>openjanela.model.entities.parts.PartFamilyStation</class>
+        <class>openjanela.model.entities.parts.TypeAttribute</class>
+        <class>openjanela.model.entities.parts.Parts</class>
+        <class>openjanela.model.entities.parts.PartsLabelPos</class>
+        <class>openjanela.model.entities.parts.PartsCostPrice</class>
+        <class>openjanela.model.entities.orderEntry.PricingGroup</class>
+        <class>openjanela.model.entities.orderEntry.Order</class>
+        <class>openjanela.model.entities.orderEntry.OrderItems</class>
+
+        <class>openjanela.model.entities.partner.RuleAnswers</class>
+        <class>openjanela.model.entities.partner.Rules</class>
+        <class>openjanela.model.entities.partner.RuleTest</class>
+        <class>openjanela.model.entities.partner.RuleTestValue</class>
+        <class>openjanela.model.entities.partner.Series</class>
+        <class>openjanela.model.entities.partner.SeriesAllowedSUThick</class>
+        <class>openjanela.model.entities.partner.SeriesCategory</class>
+        <class>openjanela.model.entities.partner.SeriesValidOpenings</class>
+        <class>openjanela.model.entities.partner.SeriesValidShapes</class>
+        <class>openjanela.model.entities.partner.SeriesValidOpeningShape</class>
+        <class>openjanela.model.entities.partner.SeriesValidOpeningShapeMfg</class>
+        <class>openjanela.model.entities.partner.SUFamily</class>
+        <class>openjanela.model.entities.partner.SUType</class>
+        <class>openjanela.model.entities.partner.JobItem</class>
+        <class>openjanela.model.entities.partner.PartnerLineDiscount</class>
+        <class>openjanela.model.entities.partner.PartnerGroupLineDiscount</class>
+
+        <class>openjanela.model.entities.partner.TypeCouplerMullion</class>
+        <class>openjanela.model.entities.partner.ValidCouplerMullions</class>
+        <class>openjanela.model.entities.partner.ValidDoors</class>
+        <class>openjanela.model.entities.partner.ValidEntries</class>
+        <class>openjanela.model.entities.partner.ValidOpenings</class>
+        <class>openjanela.model.entities.partner.ValidOrientations</class>
+        <class>openjanela.model.entities.partner.ValidSashes</class>
+        <class>openjanela.model.entities.partner.ValidShapes</class>
+        <class>openjanela.model.entities.partner.Grids</class>
+        <class>openjanela.model.entities.partner.ProductionLine</class>
+        <class>openjanela.model.entities.partner.TaxCodes</class>
+
+        <!-- Defining class persistence design -->
+        <class>openjanela.model.entities.design.AssemblyCapacityUsageEntity</class>
+        <class>openjanela.model.entities.design.AssemblyEntityObject</class>
+        <class>openjanela.model.entities.design.ConfirmAssemblyEntityObject</class>
+        <class>openjanela.model.entities.design.ConfirmedItems</class>
+        <class>openjanela.model.entities.design.ConstructionMap</class>
+        <class>openjanela.model.entities.design.DesignOptionEntityObject</class>
+        <class>openjanela.model.entities.design.DesignGlassEntityObject</class>
+        <class>openjanela.model.entities.design.DesignGlassRatingsEntityObject</class>
+        <class>openjanela.model.entities.design.DesignRatingsLabel</class>
+        <class>openjanela.model.entities.design.Design</class>
+        <class>openjanela.model.entities.design.DesignFamily</class>
+        <class>openjanela.model.entities.design.ShapeNotesEntityObject</class>
+        <class>openjanela.model.entities.design.BillOfMaterialEntityObject</class>
+        <class>openjanela.model.entities.orderEntry.OrderStatus</class>
+
+        <!-- Defining class persistence orderEntry -->
+        <class>openjanela.model.entities.orderEntry.Order</class>
+        <class>openjanela.model.entities.orderEntry.OrderItems</class>
+        <class>openjanela.model.entities.orderEntry.OrderItemsCart</class>
+        <class>openjanela.model.entities.orderEntry.OrdersCart</class>
+        <class>openjanela.model.entities.orderEntry.OrderType</class>
+        <class>openjanela.model.entities.orderEntry.CartDefault</class>
+        <class>openjanela.model.entities.orderEntry.CostingGroup</class>
+        <class>openjanela.model.entities.orderEntry.PricingGroup</class>
+        <class>openjanela.model.entities.orderEntry.SalesRep</class>
+
+        <class>openjanela.model.entities.partner.TypePartner</class>
+
+        <!-- Exclude unlist classes -->
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+
+        <!-- Cacheable mode entities -->
+        <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>
+        <!-- Validation bean mode entities -->
+        <!--validation-mode>AUTO</validation-mode-->
+
+        <properties>
+
+            <!-- SQL stdout logging -->
+            <property name="hibernate.show_sql" value="false"/>
+            <property name="hibernate.format_sql" value="false"/>
+            <property name="use_sql_comments" value="false"/>
+
+            <property name="hibernate.validator.apply_to_ddl" value="false"/>
+            <property name="hibernate.validator.autoregister_listeners" value="false"/>
+
+            <!-- Hibernate Dialect -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLMyISAMDialect"/>
+
+            <!-- On deployment of this persistence unit, drop and then re-create all tables -->
+            <property name="hibernate.hbm2ddl.auto" value="none"/>
+
+            <!-- Hibernate Encoding -->
+            <property name="hibernate.connection.CharSet" value="utf8"/>
+            <property name="hibernate.connection.characterEncoding" value="utf8"/>
+            <property name="hibernate.connection.useUnicode" value="true"/>
+
+            <property name="hibernate.cache.use_second_level_cache" value="true"/>
+            <property name="hibernate.cache.use_query_cache" value="true"/>
+            <property name="hibernate.cache.region.factory_class" value="org.hibernate.cache.ehcache.EhCacheRegionFactory"/>
+        </properties>
+
+    </persistence-unit>
+
+</persistence>
+

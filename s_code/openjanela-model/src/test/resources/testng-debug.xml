@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- Debug related test cases -->
+<suite name="Openjanela Debug Test Suite" verbose="1">
+
+
+    <!-- ==================================================================== -->
+    <!-- DEVELOPMENT TESTS                                                    -->
+    <!-- ==================================================================== -->
+
+    <!-- Test paramters -->
+    <test name="Debug Tests" verbose="1">
+
+        <groups>
+            <run>
+                <include name="debug"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="openjanela.model.test"/>
+        </packages>
+
+    </test>
+
+</suite>

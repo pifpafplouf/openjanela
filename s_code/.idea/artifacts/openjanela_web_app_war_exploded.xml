@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="openjanela-web-app:war exploded">
+    <output-path>$PROJECT_DIR$/openjanela-web-app/target/openjanela</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="openjanela-web-app/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="openjanela-web-app" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: jnlp-servlet:jnlp-servlet:1.0" />
+          <element id="library" level="project" name="Maven: org.hibernate:c3p0:0.9.2-pre8" />
+          <element id="library" level="project" name="Maven: com.oracle.javafx:javafx:2.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

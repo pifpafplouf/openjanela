@@ -1,0 +1,1950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list readonly="true" id="00b0dca0-9e33-4852-87af-b5cd8224e822" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-commons/openjanela-commons-components/openjanela-commons-components.iml" afterPath="$PROJECT_DIR$/openjanela-commons/openjanela-commons-components/openjanela-commons-components.iml" />
+    </list>
+    <list default="true" id="5f61aca8-798f-48e9-b429-76414d1195e2" name="Merge from openjanela-model" comment="Commit changes">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/production/productionLineStationEAO" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/production/productionStationsEAO" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/production/productionLineStationEAO/ProductionLineStationEAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/production/productionLineStationEAO/ProductionLineStationPersistenceEAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/production/productionStationsEAO/ProductionStationsEAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/production/productionStationsEAO/ProductionStationsPersistenceEAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openjanela-app/openjanela-app.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openjanela-model/openjanela-model.iml" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\CountryHolidaysEAO\CountryHolidaysEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\CountryHolidaysEAO\CountryHolidaysPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\countryEAO\CountryEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\countryEAO\CountryPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\countryStatesEAO\CountryStatesEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\countryStatesEAO\CountryStatesPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\countryWeekendsEAO\CountryWeekendsEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\countryWeekendsEAO\CountryWeekendsPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\userAdminEAO\BiUsersEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\userAdminEAO\BiUsersPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\userGroupsEAO\UserGroupsEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\userGroupsEAO\UserGroupsPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\userRightsEAO\UserRightsEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\userRightsEAO\UserRightsPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CRMInquiryTypeEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CRMInquiryTypePersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CRMLeadListEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CRMLeadListPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CRMOpportunityDetailEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CRMOpportunityDetailPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CRMOpportunityHeaderEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CRMOpportunityHeaderPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CRMRevenueOpportunityTypeEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CRMRevenueOpportunityTypePersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignClassEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignClassPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignDocumentsEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignDocumentsPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignFrequencyEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignFrequencyPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignMediaEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignMediaPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignRunDatesEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignRunDatesPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignTargetEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignTargetPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignTypeEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO\CampaignTypePersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\design\assemblyCapacityUsageEAO\AssemblyCapacityUsageEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\design\assemblyCapacityUsageEAO\AssemblyCapacityUsagePersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\design\confirmedItemsEAO\ConfirmedItemsEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\design\confirmedItemsEAO\ConfirmedItemsPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\design\confirmedOrdersEAO\ConfirmedOrdersEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\design\confirmedOrdersEAO\ConfirmedOrdersPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\expenseEAO\ExpenseCategoriesEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\expenseEAO\ExpenseCategoriesPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\expenseEAO\ExpenseEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\expenseEAO\ExpensePaymentMethodEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\expenseEAO\ExpensePaymentMethodPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\expenseEAO\ExpensePersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\expenseEAO\ExpenseReceiptsEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\expenseEAO\ExpenseReceiptsPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\expenseEAO\ExpenseTypesEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\expenseEAO\ExpenseTypesPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\PurchaseOrderLineEAO\PurchaseOrderLineEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\PurchaseOrderLineEAO\PurchaseOrderLinePersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\StockWarehousingEAO\StockWarehousingEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\StockWarehousingEAO\StockWarehousingPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\purchaseOrderEAO\PurchaseOrderEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\purchaseOrderEAO\PurchaseOrderPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockAllocationsEAO\StockAllocationsEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockAllocationsEAO\StockAllocationsPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockAllocationsEAO\StockAllocationsTmpEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockAllocationsEAO\StockAllocationsTmpPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockOffcutsEAO\StockOffCutsEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockOffcutsEAO\StockOffCutsPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockOffcutsEAO\StockOffCutsRecordsEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockOffcutsEAO\StockOffCutsRecordsPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockRecordsEAO\StockRecordsEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockRecordsEAO\StockRecordsPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockRequisitionsEAO\StockRequisitionsEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockRequisitionsEAO\StockRequisitionsPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockRequisitionsEAO\StockRequisitionsTmpEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockRequisitionsEAO\StockRequisitionsTmpPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockSupplierEAO\StockSupplierEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockSupplierEAO\StockSupplierPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\warehouseBinEAO\WarehouseBinEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\warehouseBinEAO\WarehouseBinPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\warehouseLocationEAO\WarehouseLocationEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\warehouseLocationEAO\WarehouseLocationPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\warehouseRackEAO\WarehouseRackEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\warehouseRackEAO\WarehouseRackPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\warehousesEAO\WarehousesEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\warehousesEAO\WarehousesPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\invoicesEAO\BankEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\invoicesEAO\BankPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\invoicesEAO\InvoicesPaymentEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\invoicesEAO\InvoicesPaymentPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\invoicesEAO\PaymentMethodEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\invoicesEAO\PaymentMethodPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\invoicesEAO\TypeCreditCardEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\invoicesEAO\TypeCreditCardPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\orderEntry\LossReasonEAO\LossReasonEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\orderEntry\LossReasonEAO\LossReasonPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\orderEntry\builder_projecttEAO\BPAttributeAnswersEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\orderEntry\builder_projecttEAO\BPAttributeAnswersPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\orderEntry\builder_projecttEAO\BPAttributesEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\orderEntry\builder_projecttEAO\BPAttributesPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\orderEntry\builder_projecttEAO\BPHeaderEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\orderEntry\builder_projecttEAO\BPHeaderPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\partner\currencyExchangeEAO\CurrencyExchangeEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\partner\currencyExchangeEAO\CurrencyExchangePersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\reports\reportsByStationEAO\ReportsByStationEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\reports\reportsByStationEAO\ReportsByStationPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\reports\reportsEAO\ReportsEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\reports\reportsEAO\ReportsPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\calendarEAO\CalendarEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\calendarEAO\CalendarEAOPersistence.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\calendarExceptionTimesEAO\CalendarExceptionTimesEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\calendarExceptionTimesEAO\CalendarExceptionTimesPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\calendarTimeEAO\CalendarTimeEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\calendarTimeEAO\CalendarTimePersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\resourceEAO\ResourceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\resourceEAO\ResourcePersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\resourceFunctionEAO\ResourceFunctionEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\resourceFunctionEAO\ResourceFunctionPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\resourceScheduleEAO\ResourceScheduleEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\resourceScheduleEAO\ResourceSchedulePersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\taskAlarmLeadTimeEAO\TaskAlarmLeadTimeEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\taskAlarmLeadTimeEAO\TaskAlarmLeadTimePersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\taskEAO\TaskEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\taskEAO\TaskPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\taskTypeEAO\TaskTypeEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\taskTypeEAO\TaskTypePersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\shipping\shippingDocumentsEAO\ShippingDocumentsEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\shipping\shippingDocumentsEAO\ShippingDocumentsPersistenceEAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\admin\BiUsers.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\CRMInquiryType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\CRMLeadList.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\CRMOpportunityDetail.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\CRMOpportunityDetailPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\CRMOpportunityHeader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\CRMRevenueOpportunityType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\Campaign.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\CampaignClass.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\CampaignDocuments.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\CampaignDocumentsPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\CampaignFrequency.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\CampaignMedia.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\CampaignRunDates.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\CampaignRunDatesPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\CampaignTarget.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign\CampaignType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\expense\Expense.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\expense\ExpenseCategories.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\expense\ExpensePaymentMethod.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\expense\ExpenseReceipts.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\expense\ExpenseReceiptsPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\expense\ExpenseTypes.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\PartsBomTemp.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\PurchaseOrder.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\PurchaseOrderLine.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\PurchaseOrderLinePK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\StockAllocations.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\StockAllocationsTmp.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\StockOffCuts.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\StockOffCutsPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\StockOffCutsRecords.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\StockOffCutsRecordsPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\StockRecords.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\StockRequisitions.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\StockRequisitionsTmp.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\StockSupplier.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\StockSupplierPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\StockWarehousing.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\StockWarehousingPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\WarehouseBin.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\WarehouseBinPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\WarehouseLoc.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\WarehouseLocPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\WarehouseRack.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\WarehouseRackPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory\Warehouses.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\invoices\Bank.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\invoices\InvoicesPayment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\invoices\PaymentMethod.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\invoices\TypeCreditCard.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\orderEntry\BpAssembliesByPhase.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\orderEntry\BpAssembliesByPhasePK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\orderEntry\BpAttributeAnswers.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\orderEntry\BpAttributeAnswersPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\orderEntry\BpAttributes.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\orderEntry\BpAttributesPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\orderEntry\BpHeader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\orderEntry\BpOrderItemAttribute.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\orderEntry\BpOrderItemAttributePK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\orderEntry\BpOrders.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\orderEntry\BpOrdersPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\orderEntry\BpValidDeliveryPhases.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\orderEntry\BpValidDeliveryPhasesPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\orderEntry\LossReason.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\BarcodeTrack.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\BarcodeTrackPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\Batch.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\BatchSub.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\ConfirmedAssembliesShipped.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\ConfirmedItemsShipped.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\CutListFrameReport.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\PatternFrameDetailReport.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\PatternFrameReport.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\ProductionLineShift.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\ProductionLineShiftPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\ProductionSaws.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\ProductionSawsPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\ProductionStationViewConfigPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\ProductionStationViews.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\ProductionStationViewsConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\RemakeOrders.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\RepairRecords.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\StationsViews.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\production\TypeRejectCodes.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\reports\ReportComparator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\reports\Reports.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\reports\ReportsByStation.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\reports\ReportsByStationPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\Calendar.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\CalendarExceptionTimes.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\CalendarExceptionTimesPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\CalendarTime.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\CalendarTimePK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\Resource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\ResourceFunction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\ResourceFunctionPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\ResourcePK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\ResourceSchedule.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\ResourceSchedulePK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\Task.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\TaskAlarmLeadTime.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\TaskAssignToType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\TaskType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling\TypeResources.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\shipping\ShippingDocuments.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\shipping\ShippingDocumentsPK.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\CountryHolidaysEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\orderEntry\LossReasonEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\PurchaseOrderLineEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\StockWarehousingEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\design\assemblyCapacityUsageEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\orderEntry\builder_projecttEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\calendarEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\calendarExceptionTimesEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\calendarTimeEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\campaignEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\campaign" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\design\confirmedItemsEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\design\confirmedOrdersEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\countryEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\countryStatesEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\countryWeekendsEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\partner\currencyExchangeEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\expenseEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\expense" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\inventory" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\invoicesEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\invoices" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\purchaseOrderEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\reports\reportsByStationEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\reports\reportsEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\reports" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\reports" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\resourceEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\resourceFunctionEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\resourceScheduleEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\scheduling" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\shipping\shippingDocumentsEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\shipping" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\entities\shipping" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockAllocationsEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockOffcutsEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockRecordsEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockRequisitionsEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\stockSupplierEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\taskAlarmLeadTimeEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\taskEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\scheduling\taskTypeEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\userGroupsEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\admin\userRightsEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\warehouseBinEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\warehouseLocationEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\warehouseRackEAO" afterPath="" />
+      <change type="DELETED" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao\inventory\warehousesEAO" afterPath="" />
+      <change type="MODIFICATION" beforePath="C:\openjanela_development\backup\opensource\openjanela\openjanela-app\src\main\java\Presentation\CostPricePanel.java.minewww" afterPath="C:\openjanela_development\backup\opensource\openjanela\openjanela-app\src\main\java\Presentation\CostPricePanel.java.minewww" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/production" afterPath="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/production" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/ApplicationBaseApp.java" afterPath="$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/ApplicationBaseApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/ApplicationInitializeExecutor.java" afterPath="$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/ApplicationInitializeExecutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/ApplicationMainBaseApp.java" afterPath="$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/ApplicationMainBaseApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-app/src/main/java/openjanela/app/configuration/controller/BaseController.java" afterPath="$PROJECT_DIR$/openjanela-app/src/main/java/openjanela/app/configuration/controller/BaseController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-app/src/main/java/Rules/ExecuteClearanceRules.java" afterPath="$PROJECT_DIR$/openjanela-app/src/main/java/Rules/ExecuteClearanceRules.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-app/src/main/java/Rules/ExecuteGridRules.java" afterPath="$PROJECT_DIR$/openjanela-app/src/main/java/Rules/ExecuteGridRules.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-app/src/main/java/Rules/ExecuteOptionRules.java" afterPath="$PROJECT_DIR$/openjanela-app/src/main/java/Rules/ExecuteOptionRules.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-app/src/main/java/Rules/ExecuteRules.java" afterPath="$PROJECT_DIR$/openjanela-app/src/main/java/Rules/ExecuteRules.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-app/src/main/java/Presentation/ItemFrame.java" afterPath="$PROJECT_DIR$/openjanela-app/src/main/java/Presentation/ItemFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-app/src/main/java/openjanela/app/main/Main.java" afterPath="$PROJECT_DIR$/openjanela-app/src/main/java/openjanela/app/main/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-app/src/test/java/openjanela/test/OpenJanelaRuleTest1.java" afterPath="$PROJECT_DIR$/openjanela-app/src/test/java/openjanela/test/OpenJanelaRuleTest1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/UserPreferences.java" afterPath="$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/UserPreferences.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-commons/openjanela-commons.iml" afterPath="$PROJECT_DIR$/openjanela-commons/openjanela-commons.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-model/src/main/java/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/openjanela-model/src/main/java/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-app/pom.xml" afterPath="$PROJECT_DIR$/openjanela-app/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openjanela-commons/pom.xml" afterPath="$PROJECT_DIR$/openjanela-commons/pom.xml" />
+    </list>
+    <ignored path="openjanela-project.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/openjanela-project$ERPiccoloApp.coverage" NAME="ERPiccoloApp Coverage Results" MODIFIED="1391704907769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>erpiccolo.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/openjanela-app/src/main/java/Presentation/JOpenJanelaItemDesign.java" line="267" class="Presentation.JOpenJanelaItemDesign" package="Presentation">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="openjanela-project" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/Presentation/BomView.java" />
+        <option value="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/entities/design/DesignStdSize.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/Presentation/CostPricePanel.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/java/erpiccolo/scheduling/model/getBOMPartInfo.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/java/erpiccolo/admin/model/CompanyPreferences.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/java/erpiccolo/admin/model/UserAdmin.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/Presentation/TopPanel.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/Presentation/JOpenJanelaItemDesign.java" />
+        <option value="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/admin/userRightsEAO/UserRightsPersistenceEAO.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/java/erpiccolo/orderEntry/view/OrderHeader.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/Model/OpeningObject.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/Model/Frame.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/dto/JobItemDTO.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/Model/Facet.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/java/erpiccolo/orderEntry/view/PartOEDetails.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/openjanela/app/configuration/controller/JobItemModelController.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/java/erpiccolo/orderEntry/controller/OEUtility.java" />
+        <option value="$PROJECT_DIR$/openjanela-lib/pom.xml" />
+        <option value="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/entities/design/SashLeafEntityObject.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/Operations/CreateSash.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/Model/SashLeaf.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/java/erpiccolo/orderEntry/view/ItemsPanel.java" />
+        <option value="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/entities/admin/Currency.java" />
+        <option value="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/admin/currencyEAO/CurrencyEAO.java" />
+        <option value="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/admin/currencyEAO/CurrencyPersistenceEAO.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/java/erpiccolo/MainAppFrame.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/java/erpiccolo/admin/view/UserMain.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/java/erpiccolo/orderEntry/model/OrdersCart.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/java/erpiccolo/orderEntry/view/MainOrderContainer.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/java/erpiccolo/admin/view/AdminMain.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/java/erpiccolo/admin/view/AdminMainView.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/java/erpiccolo/admin/view/CompanyView.java" />
+        <option value="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/partner/currencyExchangeEAO/CurrencyExchangeEAO.java" />
+        <option value="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/entities/partner/CurrencyExchange.java" />
+        <option value="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/partner/currencyExchangeEAO/CurrencyExchangePersistenceEAO.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/java/erpiccolo/customer/view/CustomerDocs.java" />
+        <option value="$PROJECT_DIR$/erpiccolo/src/main/resources/persistence.properties" />
+        <option value="$PROJECT_DIR$/openjanela-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/openjanela-app/pom.xml" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/openjanela/app/configuration/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/ApplicationInitializeExecutor.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/UserPreferences.java" />
+        <option value="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/production/typeRejectCodesEAO/TypeRejectCodesEAO.java" />
+        <option value="$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/production/confirmedItemsShippedEAO/ConfirmedItemsShippedEAO.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/Presentation/ItemFrame.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/ApplicationMainBaseApp.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/openjanela/app/main/Main.java" />
+        <option value="$PROJECT_DIR$/openjanela-model/src/main/java/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/ApplicationBaseApp.java" />
+        <option value="$PROJECT_DIR$/openjanela-app/src/test/java/openjanela/test/OpenJanelaRuleTest1.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="OPENJANELA-APP" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="916" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JpaAttributeMemberSignatureInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openjanela-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openjanela-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openjanela" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Presentation" />
+      <recent name="Rules" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\openjanela_development\backup\opensource\openjanela\openjanela-model\src\main\java\openjanela\model\eao" />
+      <recent name="C:\openjanela_development\backup\opensource\openjanela\openjanela-app\src\main\resources\openjanela\resources\images" />
+      <recent name="C:\openjanela_development\backup\backup_02262014_deploy\openjanela\erpiccolo\src\main\resources\reports" />
+      <recent name="C:\openjanela_development\merge\openjanela\erpiccolo\src\main\resources\reports" />
+      <recent name="C:\openjanela_development\merge\openjanela" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="openjanela.app.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="openjanela.app.main.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="openjanela-app" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">C:\Users\EMONTENEGRO\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\openjanela_development\backup\opensource\openjanela" />
+          <option name="myCopyRoot" value="C:\openjanela_development\backup\opensource\openjanela" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\openjanela_development\backup\opensource\openjanela" />
+          <option name="myCopyRoot" value="C:\openjanela_development\backup\opensource\openjanela" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00b0dca0-9e33-4852-87af-b5cd8224e822" name="Default" comment="" />
+      <created>1391640720502</created>
+      <updated>1391640720502</updated>
+      <workItem from="1391653737652" duration="302000" />
+      <workItem from="1391654072480" duration="33870000" />
+      <workItem from="1391736812521" duration="33086000" />
+      <workItem from="1391971249292" duration="141921000" />
+      <workItem from="1392393415529" duration="37313000" />
+      <workItem from="1392693135212" duration="214045000" />
+      <workItem from="1393333774577" duration="61381000" />
+      <workItem from="1393644184139" duration="171000" />
+      <workItem from="1393694221921" duration="414000" />
+      <workItem from="1393696638414" duration="8873000" />
+      <workItem from="1393858340701" duration="7960000" />
+      <workItem from="1393872966737" duration="36131000" />
+      <workItem from="1394127564207" duration="2263000" />
+      <workItem from="1394132080927" duration="2000000" />
+      <workItem from="1394138049556" duration="19151000" />
+      <workItem from="1394198151931" duration="48511000" />
+      <workItem from="1394668453741" duration="11466000" />
+      <workItem from="1394767874715" duration="183000" />
+      <workItem from="1395598001021" duration="614000" />
+      <workItem from="1399995249435" duration="4580000" />
+      <workItem from="1400034950302" duration="107894000" />
+      <workItem from="1400341516303" duration="21437000" />
+      <workItem from="1400517186061" duration="177425000" />
+      <workItem from="1402292627215" duration="20433000" />
+      <workItem from="1402414444816" duration="11443000" />
+      <workItem from="1402498001762" duration="20787000" />
+      <workItem from="1402587803658" duration="36756000" />
+      <workItem from="1402850089697" duration="181239000" />
+      <workItem from="1404150472141" duration="22128000" />
+      <workItem from="1404410203167" duration="712000" />
+      <workItem from="1404572408949" duration="34656000" />
+      <workItem from="1404875952131" duration="695000" />
+      <workItem from="1405013227967" duration="618000" />
+      <workItem from="1405308828881" duration="903000" />
+      <workItem from="1405350588263" duration="21198000" />
+    </task>
+    <task id="LOCAL-00001" summary="Merge changes from openjanela-2.2 ....change to version 2.2 Dealer System.">
+      <created>1391650814110</created>
+      <updated>1391650814110</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit changes for Execute Part Rules, dimensioning changes">
+      <created>1391667170328</created>
+      <updated>1391667170328</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit changes">
+      <created>1391725340104</created>
+      <updated>1391725340104</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit changes parts custom">
+      <created>1391749823108</created>
+      <updated>1391749823108</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed bill of material bug after changes...">
+      <created>1391918285103</created>
+      <updated>1391918285103</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Revert dealer system changes">
+      <created>1392051250141</created>
+      <updated>1392051250141</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Artifact artf21038 : Custom Parts Change Request">
+      <created>1392173495108</created>
+      <updated>1392173495108</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Commit scheduling changes">
+      <created>1392271634107</created>
+      <updated>1392271634107</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Commit changes">
+      <created>1392272551105</created>
+      <updated>1392272551105</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge changes from openjanela-2.2 ....change to version 2.2 Dealer System.">
+      <created>1392310951103</created>
+      <updated>1392310951103</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Commit changes">
+      <created>1392311376106</created>
+      <updated>1392311376106</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Commit changes">
+      <created>1392313971104</created>
+      <updated>1392313971104</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Commit changes">
+      <created>1392320106106</created>
+      <updated>1392320106106</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Commit changes for create batch and subbatches...">
+      <created>1392361207104</created>
+      <updated>1392361207104</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Commit change for edit &amp; update jobItemModel">
+      <created>1392401992104</created>
+      <updated>1392401992104</updated>
+    </task>
+    <task id="LOCAL-00016" summary="CustomerDocs changes">
+      <created>1392493480104</created>
+      <updated>1392493480104</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fixed bugs">
+      <created>1392495324107</created>
+      <updated>1392495324107</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Commit changes">
+      <created>1392504965104</created>
+      <updated>1392504965104</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fixed requisition generation process for glass">
+      <created>1392510712102</created>
+      <updated>1392510712102</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Commit changes view quality controller">
+      <created>1392702330217</created>
+      <updated>1392702330217</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Artifact artf21931">
+      <created>1392771007107</created>
+      <updated>1392771007107</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Commit bug fixed image generation">
+      <created>1392782711103</created>
+      <updated>1392782711103</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Artifact artf21360">
+      <created>1392816075103</created>
+      <updated>1392816075103</updated>
+    </task>
+    <task id="LOCAL-00024" summary="artf21358">
+      <created>1392868575108</created>
+      <updated>1392868575108</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Artifact artf21569">
+      <created>1393188389106</created>
+      <updated>1393188389106</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Artifact artf21569">
+      <created>1393203251105</created>
+      <updated>1393203251105</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Artifact artf21569 : Logic for Shapes and Glazed and Unglazed unit">
+      <created>1393205235107</created>
+      <updated>1393205235107</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Merge changes from openjanela-2.2 ....change to version 2.2 Dealer System.">
+      <created>1393206549104</created>
+      <updated>1393206549104</updated>
+    </task>
+    <task id="LOCAL-00029" summary="commit changes">
+      <created>1393206667107</created>
+      <updated>1393206667107</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Artifact artf21569 : Logic for Shapes and Glazed and Unglazed unit">
+      <created>1393214490108</created>
+      <updated>1393214490108</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Invoice generation from Customer Documents for manual invoice option">
+      <created>1393259966107</created>
+      <updated>1393259966107</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Commit changes for Customer Docs...confirm order button fixed">
+      <created>1393260142102</created>
+      <updated>1393260142102</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Assembly List Update">
+      <created>1393266163107</created>
+      <updated>1393266163107</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Commit changes">
+      <created>1393304690107</created>
+      <updated>1393304690107</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Commit changes fixed for shapes bought outside">
+      <created>1393340026246</created>
+      <updated>1393340026246</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Commit changes">
+      <created>1393441074108</created>
+      <updated>1393441074108</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Commit changes">
+      <created>1393470710104</created>
+      <updated>1393470710104</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Merge changes from openjanela-2.2 ....change to version 2.2 Dealer System.">
+      <created>1393861511138</created>
+      <updated>1393861511138</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Fixed company preferences uom">
+      <created>1393975738102</created>
+      <updated>1393975738102</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Merge changes from openjanela-2.2 ....change to version 2.2 Dealer System.">
+      <created>1393979303102</created>
+      <updated>1393979303102</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Merge changes from openjanela-2.2 ....change to version 2.2 Dealer System.">
+      <created>1393979321107</created>
+      <updated>1393979321107</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Commit changes for production cut logic fixed and assembly label report order by sequence">
+      <created>1394085210108</created>
+      <updated>1394085210108</updated>
+    </task>
+    <task id="LOCAL-00043" summary="commit changes for query">
+      <created>1394085855108</created>
+      <updated>1394085855108</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Commit changes for optimized cut logic.">
+      <created>1394173332120</created>
+      <updated>1394173332120</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Commit changes for optimization cut logic">
+      <created>1394245336194</created>
+      <updated>1394245336194</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Commit changes for pattern frame detail reports">
+      <created>1394246380102</created>
+      <updated>1394246380102</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Merge changes from openjanela-2.2 ....change to version 2.2 Dealer System.">
+      <created>1394307353103</created>
+      <updated>1394307353103</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Commit changes production process">
+      <created>1394308650107</created>
+      <updated>1394308650107</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Commit changes reports">
+      <created>1394330112107</created>
+      <updated>1394330112107</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Commit changes assembly report">
+      <created>1394672538108</created>
+      <updated>1394672538108</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Commit changes">
+      <created>1394677082104</created>
+      <updated>1394677082104</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Commit changes">
+      <created>1400091965102</created>
+      <updated>1400091965102</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Commit changes">
+      <created>1400093772113</created>
+      <updated>1400093772113</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Commit changes">
+      <created>1400115058104</created>
+      <updated>1400115058104</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Commit changes">
+      <created>1400115563103</created>
+      <updated>1400115563103</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Commit changes">
+      <created>1400375306108</created>
+      <updated>1400375306108</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Commit changes">
+      <created>1400379713107</created>
+      <updated>1400379713108</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Commit changes">
+      <created>1400380327103</created>
+      <updated>1400380327103</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Commit changes">
+      <created>1400381205109</created>
+      <updated>1400381205109</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Commit changes">
+      <created>1400616003160</created>
+      <updated>1400616003160</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Commit changes">
+      <created>1401118400107</created>
+      <updated>1401118400108</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Commit changes">
+      <created>1401121721103</created>
+      <updated>1401121721103</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Commit changes">
+      <created>1401372418103</created>
+      <updated>1401372418103</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Commit changes">
+      <created>1401372794103</created>
+      <updated>1401372794103</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Commit changes bug fixed">
+      <created>1401571712107</created>
+      <updated>1401571712107</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Commit changes">
+      <created>1401760439108</created>
+      <updated>1401760439108</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Commit changes">
+      <created>1401812978104</created>
+      <updated>1401812978104</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Commit changes for delete assembly model">
+      <created>1401897033107</created>
+      <updated>1401897033107</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Commit changes batch processing">
+      <created>1401901227103</created>
+      <updated>1401901227103</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Commit changes">
+      <created>1401901854104</created>
+      <updated>1401901854104</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Commit changes">
+      <created>1402078116107</created>
+      <updated>1402078116107</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Commit changes">
+      <created>1402344736112</created>
+      <updated>1402344736112</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Commit changes">
+      <created>1402436034108</created>
+      <updated>1402436034108</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Commit changes">
+      <created>1402668881147</created>
+      <updated>1402668881147</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Commit changes">
+      <created>1402671276108</created>
+      <updated>1402671276108</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Commit changes">
+      <created>1402893366118</created>
+      <updated>1402893366118</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Commit changes">
+      <created>1402894707107</created>
+      <updated>1402894707107</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Commit changes">
+      <created>1402944532108</created>
+      <updated>1402944532108</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Commit changes">
+      <created>1403024877111</created>
+      <updated>1403024877111</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Commit changes">
+      <created>1403110734108</created>
+      <updated>1403110734109</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Commit changes">
+      <created>1403115086108</created>
+      <updated>1403115086108</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Commit changes">
+      <created>1403124192108</created>
+      <updated>1403124192108</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Commit changes">
+      <created>1403184636102</created>
+      <updated>1403184636102</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Commit changes quote report not price">
+      <created>1403188585104</created>
+      <updated>1403188585104</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Commit changes">
+      <created>1403586260113</created>
+      <updated>1403586260113</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Commit changes">
+      <created>1403587442103</created>
+      <updated>1403587442103</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Commit changes">
+      <created>1403616629109</created>
+      <updated>1403616629109</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Commit changes">
+      <created>1403621199108</created>
+      <updated>1403621199109</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Commit changes">
+      <created>1403702723108</created>
+      <updated>1403702723109</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Commit changes">
+      <created>1403704036107</created>
+      <updated>1403704036107</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Commit changes">
+      <created>1403704264108</created>
+      <updated>1403704264108</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Commit changes">
+      <created>1403790518109</created>
+      <updated>1403790518109</updated>
+    </task>
+    <task id="LOCAL-00093" summary="commit file">
+      <created>1403795696108</created>
+      <updated>1403795696108</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Commit changes">
+      <created>1403800800102</created>
+      <updated>1403800800102</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Commit changes">
+      <created>1403802400103</created>
+      <updated>1403802400103</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Commit changes">
+      <created>1403802741103</created>
+      <updated>1403802741103</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Commit changes copy items bug fixes">
+      <created>1403826540107</created>
+      <updated>1403826540108</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Commit changes">
+      <created>1403843758104</created>
+      <updated>1403843758104</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Commit changes">
+      <created>1404157431157</created>
+      <updated>1404157431157</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Commit changes">
+      <created>1404165681109</created>
+      <updated>1404165681109</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Commit changes">
+      <created>1404165778108</created>
+      <updated>1404165778108</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Commit changes">
+      <created>1404333716109</created>
+      <updated>1404333716109</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Commit changes">
+      <created>1404410265104</created>
+      <updated>1404410265104</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Commit changes">
+      <created>1404705490103</created>
+      <updated>1404705490103</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Commit changes">
+      <created>1404749703106</created>
+      <updated>1404749703106</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Commit changes">
+      <created>1404758085105</created>
+      <updated>1404758085105</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Commit changes">
+      <created>1404758119108</created>
+      <updated>1404758119108</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Commit changes">
+      <created>1404758174108</created>
+      <updated>1404758174108</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Commit changes">
+      <created>1404769380103</created>
+      <updated>1404769380103</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1322559000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53289473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18292683" sideWeight="0.57329845" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6184211" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35394737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5407895" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35394737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40921053" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33157894" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.338896" sideWeight="0.42670158" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49736843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53289473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18292683" sideWeight="0.57329845" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5407895" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35394737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26765084" sideWeight="0.42670158" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49736843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6184211" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35394737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40921053" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33157894" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="artf21569" />
+    <MESSAGE value="Artifact artf21569" />
+    <MESSAGE value="commit changes" />
+    <MESSAGE value="Artifact artf21569 : Logic for Shapes and Glazed and Unglazed unit" />
+    <MESSAGE value="Invoice generation from Customer Documents for manual invoice option" />
+    <MESSAGE value="Commit changes for Customer Docs...confirm order button fixed" />
+    <MESSAGE value="Assembly List Update" />
+    <MESSAGE value="Commit changes fixed for shapes bought outside" />
+    <MESSAGE value="Fixed company preferences uom" />
+    <MESSAGE value="Commit changes for production cut logic fixed and assembly label report order by sequence" />
+    <MESSAGE value="commit changes for query" />
+    <MESSAGE value="Commit changes for optimized cut logic." />
+    <MESSAGE value="Commit changes for optimization cut logic" />
+    <MESSAGE value="Commit changes for pattern frame detail reports" />
+    <MESSAGE value="Commit changes production process" />
+    <MESSAGE value="Commit changes reports" />
+    <MESSAGE value="Merge changes from openjanela-2.2 ....change to version 2.2 Dealer System." />
+    <MESSAGE value="Commit changes assembly report" />
+    <MESSAGE value="Commit changes bug fixed" />
+    <MESSAGE value="Commit changes for delete assembly model" />
+    <MESSAGE value="Commit changes batch processing" />
+    <MESSAGE value="Commit changes quote report not price" />
+    <MESSAGE value="commit file" />
+    <MESSAGE value="Commit changes copy items bug fixes" />
+    <MESSAGE value="Commit changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$M2_REPO$/org/java/net/substance/substance/6.0_02final/substance-6.0_02final.jar!/org/pushingpixels/substance/internal/ui/SubstanceTableUI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="19" selection-start="4174" selection-end="4174" vertical-scroll-proportion="-6.08" vertical-offset="970" max-vertical-offset="4097" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/entities/admin/CompanyPreferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="3" selection-start="100" selection-end="298" vertical-scroll-proportion="0.23978202" vertical-offset="28" max-vertical-offset="9520" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/entities/admin/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="23" selection-start="557" selection-end="557" vertical-scroll-proportion="0.5735695" vertical-offset="4" max-vertical-offset="1088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/entities/orderEntry/OrdersCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="13" selection-start="601" selection-end="601" vertical-scroll-proportion="-2.3079019" vertical-offset="1949" max-vertical-offset="9877" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/entities/orderEntry/OrderItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="107" selection-start="2677" selection-end="2780" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="15776" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/admin/currencyEAO/CurrencyPersistenceEAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="7" selection-start="942" selection-end="942" vertical-scroll-proportion="0.6021798" vertical-offset="0" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/admin/currencyEAO/CurrencyEAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="44" selection-start="377" selection-end="377" vertical-scroll-proportion="0.3010899" vertical-offset="0" max-vertical-offset="734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/entities/admin/Currency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="7" selection-start="290" selection-end="290" vertical-scroll-proportion="-0.45912805" vertical-offset="541" max-vertical-offset="1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/partner/gridsEAO/GridsPersistenceEAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="0" selection-start="4263" selection-end="4263" vertical-scroll-proportion="0.53814715" vertical-offset="710" max-vertical-offset="1479" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/entities/admin/Partners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="330" selection-end="330" vertical-scroll-proportion="0.33242506" vertical-offset="11" max-vertical-offset="6970" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/admin/partnersEAO/PartnersEAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="51" selection-start="373" selection-end="373" vertical-scroll-proportion="0.27792916" vertical-offset="0" max-vertical-offset="734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/entities/admin/AppCurrency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="512" selection-end="512" vertical-scroll-proportion="-1.0014025" vertical-offset="918" max-vertical-offset="1700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/entities/partner/CurrencyExchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="5" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.0" vertical-offset="422" max-vertical-offset="1156" />
+      </provider>
+    </entry>
+    <entry file="jar://$M2_REPO$/org/java/net/substance/substance/6.0_02final/substance-6.0_02final.jar!/org/pushingpixels/substance/internal/utils/RolloverButtonListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="16" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.5993266" vertical-offset="298" max-vertical-offset="595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/design/designGlassRatingsEAO/DesignGlassRatingsPersistenceEAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="510" selection-end="510" vertical-scroll-proportion="0.20844686" vertical-offset="51" max-vertical-offset="3060" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/assemblyEAO/AssemblyEAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="394" selection-end="394" vertical-scroll-proportion="0.23097827" vertical-offset="0" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-lib/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="26" selection-start="584" selection-end="584" vertical-scroll-proportion="0.27792916" vertical-offset="0" max-vertical-offset="734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/openjanela/app/main/OpenJanelaMainPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="264" selection-end="264" vertical-scroll-proportion="0.2771739" vertical-offset="0" max-vertical-offset="736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="274" selection-end="274" vertical-scroll-proportion="0.115803815" vertical-offset="0" max-vertical-offset="4896">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="528" column="46" selection-start="19088" selection-end="19088" vertical-scroll-proportion="0.47740114" vertical-offset="8638" max-vertical-offset="12121">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/Presentation/DrawCanvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="913" column="54" selection-start="23388" selection-end="23388" vertical-scroll-proportion="0.073509015" vertical-offset="14686" max-vertical-offset="256547">
+          <folding>
+            <element signature="e#203489#203650#0" expanded="false" />
+            <element signature="e#203642#203643#0" expanded="false" />
+            <element signature="e#208135#208296#0" expanded="false" />
+            <element signature="e#208286#208287#0" expanded="false" />
+            <element signature="e#215918#216064#0" expanded="false" />
+            <element signature="e#216057#216058#0" expanded="false" />
+            <element signature="e#222110#222262#0" expanded="false" />
+            <element signature="e#222255#222256#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/javax/swing/JFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="62" selection-start="3887" selection-end="3887" vertical-scroll-proportion="0.0" vertical-offset="1171" max-vertical-offset="15402">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/openjanela/app/main/OpenJanelaStyle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="31" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/openjanela/app/tools/MenuBottomPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="402" selection-end="402" vertical-scroll-proportion="0.1852861" vertical-offset="0" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/openjanela/app/main/OpenJanelaMainDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="51" selection-start="2731" selection-end="2731" vertical-scroll-proportion="0.0" vertical-offset="1000" max-vertical-offset="1734">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/openjanela/app/main/OpenJanelaMainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="29" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.880109" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/genericEAO/GenericPersistenceEAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="0" selection-start="3252" selection-end="3252" vertical-scroll-proportion="0.2629428" vertical-offset="1405" max-vertical-offset="4641">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/openjanela/app/configuration/controller/SupplierSelectorPanelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="0" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0" vertical-offset="889" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/openjanela/app/configuration/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.3655914" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/genericEAO/GenericEAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="17" selection-start="346" selection-end="346" vertical-scroll-proportion="0.43870968" vertical-offset="0" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/entities/orderEntry/OrderPK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="46" selection-start="349" selection-end="349" vertical-scroll-proportion="0.5096774" vertical-offset="1" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/entities/orderEntry/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="431" selection-end="431" vertical-scroll-proportion="0.61935484" vertical-offset="18" max-vertical-offset="9724">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/orderEntryUtility/OEUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="0" selection-start="2942" selection-end="2942" vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="3825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/Presentation/JOpenJanelaItemDesign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1290" column="0" selection-start="46262" selection-end="46262" vertical-scroll-proportion="0.0" vertical-offset="18786" max-vertical-offset="21845">
+          <folding>
+            <element signature="method#initComponents#0;class#JOpenJanelaItemDesign#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/javax/swing/ImageIcon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="204" column="0" selection-start="6414" selection-end="6414" vertical-scroll-proportion="0.15568022" vertical-offset="2626" max-vertical-offset="10948">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/partner/productionLineEAO/ProductionLinePersistenceEAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="0" selection-start="5810" selection-end="5810" vertical-scroll-proportion="0.0" vertical-offset="2133" max-vertical-offset="3944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/ApplicationBaseRulesApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1132" column="42" selection-start="48547" selection-end="48547" vertical-scroll-proportion="0.33242506" vertical-offset="17147" max-vertical-offset="33184">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/ApplicationInitializeExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="26" selection-start="313" selection-end="313" vertical-scroll-proportion="0.14305177" vertical-offset="48" max-vertical-offset="782">
+          <folding>
+            <element signature="e#887#1145#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/sql/design_tables_openjanela.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8109">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/openjanela/model/eao/admin/userGroupEAO/UserGroupPersistenceEAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="26" selection-start="355" selection-end="355" vertical-scroll-proportion="0.16690043" vertical-offset="0" max-vertical-offset="713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/test/java/openjanela/test/OpenJanelaRuleTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="55" selection-start="137" selection-end="137" vertical-scroll-proportion="0.11921459" vertical-offset="0" max-vertical-offset="713">
+          <folding>
+            <element signature="method#main#0;class#OpenJanelaRuleTest1#0" expanded="false" />
+            <element signature="method#getRowForTestID#0;class#OpenJanelaRuleTest1#0" expanded="false" />
+            <element signature="method#analyseNextTests#0;class#OpenJanelaRuleTest1#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/ApplicationBaseApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1071" column="39" selection-start="42258" selection-end="42258" vertical-scroll-proportion="0.15531336" vertical-offset="5241" max-vertical-offset="12206">
+          <folding>
+            <element signature="method#ApplicationBaseApp#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initApplicationBase#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#updateValues#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initCompanyPreferences#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initTypeOpenings#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initWildTypes#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initChildReasons#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initTypeLevels#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initTypeShapes#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initTypeEndTypes#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initTypeCategories#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initCostingGroups#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initMathOperators#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initPartsLabelPos#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initAttributeTypes#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initParts#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initPartnerDefaults#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initSystemUOMs#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initUserAdmin#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initUserGroups#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initOrderStatus#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#initHolidays#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getInstance#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getInstance#1;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getTypeCouplerMullion#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getTypeShape#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getTypePriceCategory#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getMathEval#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getPartsLabelPos#1;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getPartnerDefault#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getSystemUOM#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getOriginalPart#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getPricingGroup#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getTypeOpenings#1;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getTypeOpening#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getEndType#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getChangeReason#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getPartsFamily#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getPartFamilySeries#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getPartFamilyStation#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#setUserAdmin#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getUserGroup#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getCountry#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getStates#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getState#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getPartnerHolidays#0;class#ApplicationBaseApp#0" expanded="false" />
+            <element signature="method#getCountryHolidays#0;class#ApplicationBaseApp#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-model/src/main/java/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="63" selection-start="929" selection-end="929" vertical-scroll-proportion="0.34741145" vertical-offset="0" max-vertical-offset="5491">
+          <folding>
+            <element signature="tag#persistence-unit#2;tag#persistence#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/UserPreferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="402" column="5" selection-start="8773" selection-end="8773" vertical-scroll-proportion="3.7820163" vertical-offset="1474" max-vertical-offset="5440">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#8735#8736#0" expanded="false" />
+            <element signature="e#8772#8773#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/ApplicationRemoteBaseRulesApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="65" selection-start="4076" selection-end="4076" vertical-scroll-proportion="-3.1359224" vertical-offset="3264" max-vertical-offset="37689">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/Presentation/ItemFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="49" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.3092643" vertical-offset="96" max-vertical-offset="95914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/org/openjanela/data/ApplicationMainBaseApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="330" column="68" selection-start="12584" selection-end="12584" vertical-scroll-proportion="0.9237057" vertical-offset="2705" max-vertical-offset="6239">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initSupplierSeries#0;class#ApplicationMainBaseApp#0" expanded="false" />
+            <element signature="e#5549#5558#0" expanded="true" />
+            <element signature="method#initSystemUOMs#0;class#ApplicationMainBaseApp#0" expanded="false" />
+            <element signature="method#initTypeDefaults#0;class#ApplicationMainBaseApp#0" expanded="false" />
+            <element signature="e#13796#13816#0" expanded="true" />
+            <element signature="e#15499#15508#0" expanded="true" />
+            <element signature="method#getSeries#2;class#ApplicationMainBaseApp#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openjanela-app/src/main/java/openjanela/app/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="7" selection-start="105" selection-end="105" vertical-scroll-proportion="0.115803815" vertical-offset="0" max-vertical-offset="2108">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="false" />
+            <element signature="method#initilize#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

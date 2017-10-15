@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.java.net.substance</groupId>
+  <artifactId>substance-extras</artifactId>
+  <version>5.3final</version>
+  <versioning>
+    <versions>
+      <version>5.3final</version>
+    </versions>
+    <lastUpdated>20121207171444</lastUpdated>
+  </versioning>
+</metadata>

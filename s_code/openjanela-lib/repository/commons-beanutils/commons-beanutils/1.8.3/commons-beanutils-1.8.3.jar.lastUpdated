@@ -1,0 +1,12 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Sat Dec 22 15:02:37 CST 2012
+http\://http\://52north.org/maven/repo/releases/.error=Could not transfer artifact commons-beanutils\:commons-beanutils\:jar\:1.8.3 from/to 52north.org (http\://http\://52north.org/maven/repo/releases)\: http
+default-http\://download.java.net/maven/2/.lastUpdated=1356210157122
+default-http\://http\://52north.org/maven/repo/releases/.lastUpdated=1356210086309
+http\://download.java.net/maven/2/.error=Could not transfer artifact commons-beanutils\:commons-beanutils\:jar\:1.8.3 from/to java.net (http\://download.java.net/maven/2)\: download.java.net
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1356210110383
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact commons-beanutils\:commons-beanutils\:jar\:1.8.3 from/to central (http\://repo.maven.apache.org/maven2)\: repo.maven.apache.org
+default-http\://informatics.mayo.edu/maven/content/groups/public/.lastUpdated=1356210098335
+default-https\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1356210071744
+http\://informatics.mayo.edu/maven/content/groups/public/.error=Could not transfer artifact commons-beanutils\:commons-beanutils\:jar\:1.8.3 from/to informatics.mayo.edu (http\://informatics.mayo.edu/maven/content/groups/public)\: informatics.mayo.edu
+https\://repository.jboss.org/nexus/content/groups/public/.error=Could not transfer artifact commons-beanutils\:commons-beanutils\:jar\:1.8.3 from/to jboss.org (https\://repository.jboss.org/nexus/content/groups/public)\: repository.jboss.org

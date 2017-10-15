@@ -1,0 +1,11 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Dec 07 21:49:48 CST 2012
+https\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1354938585182
+http\://http\://52north.org/maven/repo/releases/.error=Could not transfer artifact jasperreports\:jasperreports\:pom\:3.5.3 from/to 52north.org (http\://http\://52north.org/maven/repo/releases)\: http
+http\://download.java.net/maven/2/.lastUpdated=1354938583971
+http\://repo.maven.apache.org/maven2/.lastUpdated=1354938588960
+default-http\://http\://52north.org/maven/repo/releases/.lastUpdated=1354938588082
+http\://download.java.net/maven/2/.error=
+http\://informatics.mayo.edu/maven/content/groups/public/.lastUpdated=1354938588315
+http\://informatics.mayo.edu/maven/content/groups/public/.error=
+https\://repository.jboss.org/nexus/content/groups/public/.error=

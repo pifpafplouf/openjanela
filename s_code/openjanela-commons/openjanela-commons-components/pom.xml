@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>openjanela-commons</artifactId>
+        <groupId>openjanela</groupId>
+        <version>2.2</version>
+    </parent>
+
+    <groupId>openjanela</groupId>
+    <artifactId>openjanela-commons-components</artifactId>
+    <version>2.2</version>
+    <name>OPENJANELA-COMMONS-COMPONENTS</name>
+    <packaging>jar</packaging>
+
+    <build>
+        <finalName>${project.artifactId}-${project.version}-r${buildNumber}</finalName>
+
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>buildnumber-maven-plugin</artifactId>
+                <version>1.2</version>
+                <executions>
+                    <execution>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>create</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <format>{0,date,yyyy-MM-dd}</format>
+                    <items>
+                        <item>timestamp</item>
+                    </items>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+
+        <!-- ======================================== -->
+        <!-- PROJECT DEPENDENCIES                     -->
+        <!-- ======================================== -->
+        <dependency>
+            <groupId>openjanela</groupId>
+            <artifactId>openjanela-resources</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>openjanela</groupId>
+            <artifactId>openjanela-commons-util</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <!-- ================================================== -->
+    <!-- BUILD PLUGIN MANAGEMENT                            -->
+    <!-- ================================================== -->
+    <!--build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build-->
+
+</project>

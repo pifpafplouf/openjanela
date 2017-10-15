@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="openjanela-web-app:war">
+    <output-path>$PROJECT_DIR$/openjanela-web-app/target</output-path>
+    <root id="archive" name="openjanela.war">
+      <element id="artifact" artifact-name="openjanela-web-app:war exploded" />
+    </root>
+  </artifact>
+</component>

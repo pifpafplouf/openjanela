@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>mysql</groupId>
+  <artifactId>mysql-connector-java</artifactId>
+  <versioning>
+    <release>5.1.24-bin</release>
+    <versions>
+      <version>5.1.24-bin</version>
+    </versions>
+    <lastUpdated>20130408025618</lastUpdated>
+  </versioning>
+</metadata>

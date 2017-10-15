@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/mail/mail/1.4/mail-1.4.jar" sourcepath="M2_REPO/javax/mail/mail/1.4/mail-1.4-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/activation/activation/1.1/activation-1.1.jar" sourcepath="M2_REPO/javax/activation/activation/1.1/activation-1.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/java/comm/RXTXcomm/2-2-20081207/RXTXcomm-2-2-20081207.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="src" path="/openjanela-resources"/>
+  <classpathentry kind="src" path="/openjanela-commons-util"/>
+  <classpathentry kind="var" path="M2_REPO/org/java/net/substance/substance/6.0_02final/substance-6.0_02final.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/java/net/substance/substance-extras/5.3final/substance-extras-5.3final.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/swinglabs/swingx/2010_06_14/swingx-2010_06_14.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/swinglabs/swingx-autocomplete/1.6.5-1/swingx-autocomplete-1.6.5-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/swinglabs/swingx-beaninfo/2010_06_14/swingx-beaninfo-2010_06_14.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jasperreports/jasperreports/5.0.4/jasperreports-5.0.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jasperreports/jasperreports-fonts/5.0.4/jasperreports-fonts-5.0.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jasperreports/iText/2.1.7/iText-2.1.7.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jfree/jfreechart/1.0.14/jfreechart-1.0.14.jar"/>
+  <classpathentry kind="var" path="M2_REPO/web4j/web4j/4.6.2/web4j-4.6.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.7/commons-codec-1.7.jar" sourcepath="M2_REPO/commons-codec/commons-codec/1.7/commons-codec-1.7-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/EMONTENEGRO/.m2/repository/commons-codec/commons-codec/1.7/commons-codec-1.7-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-io/commons-io/1.4/commons-io-1.4.jar" sourcepath="M2_REPO/commons-io/commons-io/1.4/commons-io-1.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/EMONTENEGRO/.m2/repository/commons-io/commons-io/1.4/commons-io-1.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.14/log4j-1.2.14.jar" sourcepath="M2_REPO/log4j/log4j/1.2.14/log4j-1.2.14-sources.jar"/>
+</classpath>

@@ -1,0 +1,92 @@
+Level Definition:
+
+Mullions: (33 = DS Interlock,  34 = SS Interlock,  35 = meet rail, 36 = folding; 39 = Astragal)
+	
+	
+	Overall(1)
+		|_BkgrdOpening(20)
+				|+Divider(30)   
+				
+					|+Opening(40) + sequence
+						|_ Facet(2)
+							 |_BkgrdOpening(20)
+									|+Coupler(31)
+									  |+Opening(40) 
+										|_Frame(3)
+											|_BkgrdOpening(20)
+												|+Mullion(32) 
+											 		|+Opening(40) 
+											 			|_SubFacet(200)
+													 	|		|_Frame(3) 
+													 	|			|_BkgrdOpening(20)
+													 	|				|+Opening(40) 
+													 	|					|_Glass(6)
+													 	|						|_GlazingBeads
+													 	|						|_DLO
+													 	|						|+Grids 
+													 	|							|+gOpenings 
+													 	|								|_Glass()
+														|	 							|_DLO
+														|			 		|_SashType(4)
+														|		 				|_BkgrdOpening(20)
+														|				 				|+dividers(30)
+														|				 					|+Opening(40)
+														|					 					|+Sash Leaves(5)
+														|					 						|_BkgrdOpening(20)
+														|												|+Mullion(30)
+														|											 		|+Opening(40)
+														|											 			|_Glass(6)
+													 	|															|_GlazingBeads(7)
+													 	|															|_DLO(8)
+													 	|															|+Grids(30)
+														|								 								|+Openings(40)
+														|								 									|_Glass(6)
+														|										 							|_GlazingBeads(7)
+														|	
+														|
+														|
+														|
+														|									 							|_DLO(8)
+														|											 			|_Sub_SashType(400)
+											 			|_Glass(6)
+											 			|	|_GlazingBeads(7)
+											 			|	|_DLO(8)
+											 			|		|+Grids(30)
+														|			|+Openings(40)
+														|				|_Glass(6)
+														|					|_GlazingBeads(7)
+														|					|_DLO(8)
+														|
+											 			|_SashType(4)
+											 				|_BkgrdOpening(20)
+													 				|+dividers(30)
+													 					|+Opening(40)
+														 					|+Sash Leaves(5)
+														 						|_BkgrdOpening(20)
+																					|+Mullion(30)
+																				 		|+Opening(40)
+																				 			|_Glass (6)
+																				 				|_GlazingBeads(7)
+																								|_DLO(8)
+																				 			|_Sub_SashType(400)
+																				 				|_BkgrdOpening(20)
+																					 				|+dividers(30)
+																					 					|+Opening(40)
+																						 					|+Sash Leaves(5)
+																						 						|_BkgrdOpening(20)
+																													|+Mullion(30)
+																												 		|+Opening(40)
+																												 			|_Glass (6)
+																												 				|_GlazingBeads(7)
+																																|_DLO(8)
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																													

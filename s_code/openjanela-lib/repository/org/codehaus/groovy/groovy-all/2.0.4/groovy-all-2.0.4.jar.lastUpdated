@@ -1,0 +1,11 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Dec 07 21:51:47 CST 2012
+https\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1354938609270
+http\://http\://52north.org/maven/repo/releases/.error=Could not transfer artifact org.codehaus.groovy\:groovy-all\:jar\:2.0.4 from/to 52north.org (http\://http\://52north.org/maven/repo/releases)\: http
+http\://download.java.net/maven/2/.lastUpdated=1354938606651
+http\://repo.maven.apache.org/maven2/.lastUpdated=1354938707524
+default-http\://http\://52north.org/maven/repo/releases/.lastUpdated=1354938609313
+http\://download.java.net/maven/2/.error=
+http\://informatics.mayo.edu/maven/content/groups/public/.lastUpdated=1354938612833
+http\://informatics.mayo.edu/maven/content/groups/public/.error=
+https\://repository.jboss.org/nexus/content/groups/public/.error=

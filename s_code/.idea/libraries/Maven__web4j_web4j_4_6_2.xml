@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: web4j:web4j:4.6.2">
+    <CLASSES>
+      <root url="jar://$M2_REPO$/web4j/web4j/4.6.2/web4j-4.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$M2_REPO$/web4j/web4j/4.6.2/web4j-4.6.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$M2_REPO$/web4j/web4j/4.6.2/web4j-4.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.java.net.substance:substance:6.0_02final">
+    <CLASSES>
+      <root url="jar://$M2_REPO$/org/java/net/substance/substance/6.0_02final/substance-6.0_02final.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$M2_REPO$/org/java/net/substance/substance/6.0_02final/substance-6.0_02final-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$M2_REPO$/org/java/net/substance/substance/6.0_02final/substance-6.0_02final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

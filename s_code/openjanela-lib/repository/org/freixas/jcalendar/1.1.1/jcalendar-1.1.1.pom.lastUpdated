@@ -1,0 +1,12 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Dec 18 23:56:03 CST 2012
+https\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1355896560064
+http\://http\://52north.org/maven/repo/releases/.error=Could not transfer artifact org.freixas\:jcalendar\:pom\:1.1.1 from/to 52north.org (http\://http\://52north.org/maven/repo/releases)\: http
+http\://download.java.net/maven/2/.lastUpdated=1355896558719
+http\://repo.maven.apache.org/maven2/.lastUpdated=1355896563397
+default-http\://http\://52north.org/maven/repo/releases/.lastUpdated=1355896562771
+http\://download.java.net/maven/2/.error=
+http\://informatics.mayo.edu/maven/content/groups/public/.lastUpdated=1355896562993
+http\://repo.maven.apache.org/maven2/.error=
+http\://informatics.mayo.edu/maven/content/groups/public/.error=
+https\://repository.jboss.org/nexus/content/groups/public/.error=

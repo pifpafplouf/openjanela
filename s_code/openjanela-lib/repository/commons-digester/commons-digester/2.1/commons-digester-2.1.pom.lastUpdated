@@ -1,0 +1,11 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Dec 07 21:49:52 CST 2012
+https\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1354938591483
+http\://http\://52north.org/maven/repo/releases/.error=Could not transfer artifact commons-digester\:commons-digester\:pom\:2.1 from/to 52north.org (http\://http\://52north.org/maven/repo/releases)\: http
+http\://download.java.net/maven/2/.lastUpdated=1354938590776
+http\://repo.maven.apache.org/maven2/.lastUpdated=1354938592062
+default-http\://http\://52north.org/maven/repo/releases/.lastUpdated=1354938591510
+http\://download.java.net/maven/2/.error=
+http\://informatics.mayo.edu/maven/content/groups/public/.lastUpdated=1354938591749
+http\://informatics.mayo.edu/maven/content/groups/public/.error=
+https\://repository.jboss.org/nexus/content/groups/public/.error=

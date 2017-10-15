@@ -1,0 +1,644 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+
+    <head>
+      <base href="http://52north.org" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="52°North Initiative for Geospatial Open Source Software GmbH" />
+  <meta name="description" content="52°North Initiative for Geospatial Open Source Software GmbH" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>52°North Initiative for Geospatial Open Source Software GmbH</title>
+  <link href="/rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/52n/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/modules/mod_rokajaxsearch/css/rokajaxsearch.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_rokajaxsearch/themes/light/rokajaxsearch-theme.css" type="text/css" />
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="/modules/mod_rokajaxsearch/js/rokajaxsearch.js"></script>
+  <script type="text/javascript">
+window.addEvent((window.webkit) ? 'load' : 'domready', function() {
+				window.rokajaxsearch = new RokAjaxSearch({
+					'results': ' Results',
+					'close': '',
+					'websearch': 0,
+					'blogsearch': 0,
+					'imagesearch': 0,
+					'videosearch': 0,
+					'imagesize': 'MEDIUM',
+					'safesearch': 'MODERATE',
+					'search': ' Search...',
+					'readmore': ' Read more...',
+					'noresults': ' No results',
+					'advsearch': ' Advanced search',
+					'page': ' Page',
+					'page_of': ' of',
+					'searchlink': 'http://52north.org/index.php?option=com_search&amp;view=search&amp;tmpl=component',
+					'advsearchlink': 'http://52north.org/index.php?option=com_search&amp;view=search',
+					'uribase': 'http://52north.org/',
+					'limit': '10',
+					'perpage': '3',
+					'ordering': 'newest',
+					'phrase': 'any',
+					'hidedivs': '',
+					'includelink': 1,
+					'viewall': ' View all results',
+					'estimated': ' estimated',
+					'showestimated': 1,
+					'showpagination': 1,
+					'showcategory': 1,
+					'showreadmore': 1,
+					'showdescription': 1
+				});
+			});
+  </script>
+
+        <script src="http://52north.org/templates/52n/js/gatag.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="http://52north.org/templates/system/css/system.css" type="text/css" />
+    <link rel="stylesheet" href="http://52north.org/templates/system/css/general.css" type="text/css" />
+    <link rel="stylesheet" href="http://52north.org/templates/52n/css/template.css" type="text/css" />
+    <link rel="stylesheet" href="http://52north.org/templates/52n/css/typo.css" type="text/css" />
+
+    <link rel="stylesheet" href="http://52north.org/templates/52n/css/52n_newsmoo.css" type="text/css" />
+
+    <script language="javascript" type="text/javascript" src="http://52north.org/templates/52n/js/52n.script.js"></script>
+
+    <!-- Menu head -->
+    			<link href="http://52north.org/templates/52n/52n_menus/52n_cssmenu/52n.cssmenu.css" rel="stylesheet" type="text/css" />
+			<script src="http://52north.org/templates/52n/52n_menus/52n_cssmenu/52n.cssmenu.js" language="javascript" type="text/javascript"></script>
+			
+    <link href="http://52north.org/templates/52n/css/colors/default.css" rel="stylesheet" type="text/css" />
+
+    <!--[if lte IE 6]>
+    <style type="text/css">
+    .clearfix {height: 1%;}
+    img {border: none;}
+    </style>
+    <![endif]-->
+
+    <!--[if gte IE 7.0]>
+    <style type="text/css">
+    .clearfix {display: inline-block;}
+    </style>
+    <![endif]-->
+
+
+    </head>
+
+<body id="bd" class="wide fs3" >
+    <a name="Top" id="Top"></a>
+    <ul class="accessibility">
+        <li><a href="/#ja-content" title="Skip to content">Skip to content</a></li>
+        <li><a href="/#ja-mainnav" title="Skip to main navigation">Skip to main navigation</a></li>
+        <li><a href="/#ja-col1" title="Skip to 1st column">Skip to 1st column</a></li>
+        <li><a href="/#ja-col2" title="Skip to 2nd column">Skip to 2nd column</a></li>
+    </ul>
+
+    <div style="height:90px; background: url('http://52north.org/templates/52n/images/bg.png') 50% 50% no-repeat;">
+        
+    </div>
+
+    <div id="ja-wrapper">
+
+        <!-- BEGIN: MAIN NAVIGATION -->
+        <div id="ja-mainnavwrap">
+            <div id="ja-mainnav">
+                <ul id="ja-cssmenu" class="clearfix">
+<li class="active"><a href="http://52north.org/" class="menu-item0 active first-item" id="menu1" title="Home"><span class="menu-title">Home</span></a></li> 
+<li class="havechild"><a href="/about/" class="menu-item1" id="menu2" title="About"><span class="menu-title">About</span></a><ul><li class="havesubchild"><a href="/about/52north/" class=" first-item" id="menu168" title="52°North"><span class="menu-title">52°North</span></a></li> 
+<li ><a href="/52-north-team"  id="menu6" title="... the people behind 52°North"><span class="menu-title">... the people behind 52°North</span></a></li> 
+<li ><a href="/about/advisory-board/"  id="menu7" title="Advisory Board"><span class="menu-title">Advisory Board</span></a></li> 
+<li ><a href="/about/partners/"  id="menu8" title="Partners"><span class="menu-title">Partners</span></a></li> 
+<li class="havesubchild"><a href="/about/licensing/"  id="menu5" title="Licensing"><span class="menu-title">Licensing</span></a></li> 
+<li class="havesubchild"><a href="/about/get-involved/"  id="menu169" title="Get invovled!"><span class="menu-title">Get invovled!</span></a></li> 
+<li class="havesubchild"><a href="/about/other-activities/"  id="menu117" title="Other Activities"><span class="menu-title">Other Activities</span></a></li> 
+<li ><a href="/about/contact/"  id="menu170" title="Contact"><span class="menu-title">Contact</span></a></li> 
+<li ><a href="/about/imprint/" class=" last-item" id="menu256" title="Imprint"><span class="menu-title">Imprint</span></a></li> 
+</ul></li> 
+<li class="havechild"><a href="/52north/communities/" class="menu-item2" id="menu13" title="Communities"><span class="menu-title">Communities</span></a><ul><li ><a href="communities/sensorweb/" class=" first-item" id="menu14" title="Sensor Web"><span class="menu-title">Sensor Web</span></a></li> 
+<li ><a href="communities/geoprocessing"  id="menu16" title="Geoprocessing"><span class="menu-title">Geoprocessing</span></a></li> 
+<li class="havesubchild"><a href="/communities/ilwis/"  id="menu17" title="ILWIS"><span class="menu-title">ILWIS</span></a></li> 
+<li class="havesubchild"><a href="/communities/earth-observation/"  id="menu47" title="Earth Observation"><span class="menu-title">Earth Observation</span></a></li> 
+<li ><a href="communities/security/"  id="menu15" title="Security & Geo-RM"><span class="menu-title">Security & Geo-RM</span></a></li> 
+<li class="havesubchild"><a href="/communities/semantics/"  id="menu18" title="Semantics"><span class="menu-title">Semantics</span></a></li> 
+<li class="havesubchild"><a href="/communities/geostatistics/"  id="menu19" title="Geostatistics"><span class="menu-title">Geostatistics</span></a></li> 
+<li class="havesubchild"><a href="/communities/3d-community/"  id="menu173" title="3D Community"><span class="menu-title">3D Community</span></a></li> 
+<li class="havesubchild"><a href="/communities/metadata-management-community/"  id="menu257" title="Metadata Management"><span class="menu-title">Metadata Management</span></a></li> 
+<li ><a href="/communities/community-leaders/" class=" last-item" id="menu357" title="Community Leaders"><span class="menu-title">Community Leaders</span></a></li> 
+</ul></li> 
+<li class="havechild"><a href="/resources/" class="menu-item3" id="menu37" title="Resources"><span class="menu-title">Resources</span></a><ul><li ><a href="/references/" class=" first-item" id="menu44" title="References"><span class="menu-title">References</span></a></li> 
+<li ><a href="/resources/publications/"  id="menu43" title="Publications"><span class="menu-title">Publications</span></a></li> 
+<li class="havesubchild"><a href="/resources/mailing-list-and-forums/"  id="menu188" title="Mailing List and Forums"><span class="menu-title">Mailing List and Forums</span></a></li> 
+<li ><a href="https://wiki.52north.org/bin/view/" target="_blank"  id="menu42" title="Wiki"><span class="menu-title">Wiki</span></a></li> 
+<li ><a href="/resources/demos/"  id="menu45" title="Demos"><span class="menu-title">Demos</span></a></li> 
+<li ><a href="/resources/tutorials/"  id="menu46" title="Tutorials"><span class="menu-title">Tutorials</span></a></li> 
+<li ><a href="https://bugzilla.52north.org/"  id="menu41" title="Bugzilla"><span class="menu-title">Bugzilla</span></a></li> 
+<li ><a href="http://52north.org/schema/"  id="menu125" title="XML Schema repositories"><span class="menu-title">XML Schema repositories</span></a></li> 
+<li ><a href="/resources/source-repositories/" class=" last-item" id="menu40" title="Source Repositories"><span class="menu-title">Source Repositories</span></a></li> 
+</ul></li> 
+<li ><a href="/downloads/" class="menu-item4" id="menu94" title="Downloads"><span class="menu-title">Downloads</span></a></li> 
+<li ><a href="http://blog.52north.org/" class="menu-item5 last-item" id="menu109" title="Blog"><span class="menu-title">Blog</span></a></li> 
+</ul>                                <div id="ja-search">
+                    <form name="rokajaxsearch" id="rokajaxsearch" class="light" action="http://52north.org/" method="get">
+<div class="rokajaxsearch">
+	<div class="roksearch-wrapper">
+		<input id="roksearch_search_str" name="searchword" type="text" class="inputbox" value=" Search..." />
+	</div>
+	<input type="hidden" name="searchphrase" value="any"/>
+	<input type="hidden" name="limit" value="10" />
+	<input type="hidden" name="ordering" value="newest" />
+	<input type="hidden" name="view" value="search" />
+	<input type="hidden" name="Itemid" value="99999999" />
+	<input type="hidden" name="option" value="com_search" />
+
+	
+	<div id="roksearch_results"></div>
+</div>
+<div id="rokajaxsearch_tmp" style="visibility:hidden;display:none;"></div>
+</form>
+                </div>
+                            </div>
+        </div>
+        <!-- END: MAIN NAVIGATION -->
+
+        <!-- BEGIN: HEADER -->
+        <div id="ja-headerwrap">
+            <div id="ja-header" class="clearfix">
+
+                                <h1 class="logo-image">
+                    <a href="index.php" title="52°North Initiative for Geospatial Open Source Software GmbH"><span><img src="http://52north.org/templates/52n/images/52n-logo.gif" border="0" /></span></a>
+                </h1>
+                                
+            </div>
+        </div>
+        <!-- END: HEADER -->
+
+        <div id="ja-containerwrap-fl">
+            <div id="ja-container" class="clearfix">
+
+                    <!-- BEGIN: PATHWAY -->
+                    <div id="ja-pathwaywrap">
+                        <div id="ja-pathway">
+                            <div class="ja-innerpad">
+                                <span class="breadcrumbs pathway">
+Home</span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: PATHWAY -->
+                    
+                <div id="ja-mainbody" class="clearfix">
+
+                    
+
+
+                    <!-- BEGIN: CONTENT -->
+                    <div id="ja-content" class="clearfix">
+
+                        
+
+                        <div id="ja-current-content" class="clearfix">
+
+
+
+                            <table class="blog" cellpadding="0" cellspacing="0">
+
+<tr>
+	<td valign="top">
+		<table width="100%"  cellpadding="0" cellspacing="0">
+		<tr>
+										<td valign="top" width="100%" class="article_column">
+				
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+					Markus Bärlocher presents the OpenSeaMap project @ 52°North/ifgi			</td>
+	
+	
+	
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<p><sup><em>2012-11-21</em></sup></p>
+<p>Markus Bärlocher, initiator of the worldwide open source project "<a href="http://openseamap.org/">The OpenSeaMap Project</a>", visits 52°North and the <a href="http://ifgi.uni-muenster.de/">Institute for Geoinformatics</a>. He will give a talk on The OpenSeaMap Project, a sub project of <a href="http://www.openstreetmap.org/">OpenStreetMap</a>. 52°North will use this opportunity to discuss ideas and concepts about enhancing the capabilities of OpenSeaMap with near real-time sensor data and WebOfThings concepts and to initiate tangible activities.</p>
+</td>
+</tr>
+
+
+<tr>
+	<td  colspan="2">
+		<a href="index.php?option=com_content&amp;view=article&amp;id=361&amp;catid=5" class="readon">
+			Read more...</a>
+	</td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+					OGC SWE technologies @ Smart Cities Expo in Barcelona			</td>
+	
+	
+	
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<p><sup><em>2012-11-21</em></sup></p>
+<p>52°North research associates Simon Jirka and Daniel Nüst recently held a workshop on Open Geospatial Consortium (OGC) Sensor Web Enablement Initiative (SWE) Technologies. The two day event took place as part of the Smart Cities Expo and was held at the Catalan Institute of Cartography in Barcelona. Attendees were introduced to a variety of software projects and OGC specifications and gained valuable hands-on experience with the 52°North SOS implementation. </p>
+<h4><a href="http://blog.52north.org/2012/11/21/swe-for-smart-cities/">read more...</a></h4></td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+					WPS Application Patterns for Scientific Exploitation of EO Data			</td>
+	
+	
+	
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<p><em><sup>2012-11-16</sup></em></p>
+<p>52°North's Daniel Nüst recently presented generic WPS application patterns for scientific exploitation of earth observation data at the ESA-ESRIN <a class="crumblink" title="refresh" accesskey="2" href="https://wiki.services.eoportal.org/tiki-index.php?page=Models+for+scientific+exploitation+of+EO+Data">Models for scientific exploitation of EO Data</a><span class="crumblink"> workshop in Frascati, Italy. The workshop outlined the new trends and models for closing the gap between missions, data and Earth System challenges.</span></p>
+</td>
+</tr>
+
+
+<tr>
+	<td  colspan="2">
+		<a href="index.php?option=com_content&amp;view=article&amp;id=359&amp;catid=5" class="readon">
+			Read more...</a>
+	</td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+					New licensing policy			</td>
+	
+	
+	
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<p><em><sup>2012-11-08</sup></em></p>
+<p>Early this year, 52°North updated its <a href="images/stories/52n/admin/docs/2011-03-22_52n_bylaws_v2.0.5_signed.pdf">Bylaws</a> to consider some developments in its policies and procedures and to improve the text in terms of readability and clearness. The most important change was the new licensing policy, which paved the way for using Open Source Initiative approved non-copyleft licenses rather than the strict General Public License (GPL), which has been the 52°North standard Open Source license type to date.</p>
+</td>
+</tr>
+
+
+<tr>
+	<td  colspan="2">
+		<a href="index.php?option=com_content&amp;view=article&amp;id=358&amp;catid=5" class="readon">
+			Read more...</a>
+	</td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+					52°North highlights innovation topics at INTERGEO 2012			</td>
+	
+	
+	
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<p><sup><em>2012-11-08</em></sup></p>
+<p>This year's INTERGEO was a great succes for the 52°North innovation network. 52°North made use of this efficient communication platform to test innovative ideas and concepts and establish new business relationships.</p>
+</td>
+</tr>
+
+
+<tr>
+	<td  colspan="2">
+		<a href="index.php?option=com_content&amp;view=article&amp;id=357&amp;catid=5" class="readon">
+			Read more...</a>
+	</td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+</td>
+								
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top">
+		<div class="blog_more">
+			<div>
+	<strong>More Articles...</strong>
+</div>
+<ul>
+	<li>
+		<a class="blogsection" href="/52north/news/ilwis-toolboxes-for-processing-eumetcast-geonetcast-data">
+			ILWIS Toolboxes for processing EUMETCast – GEONETCast data</a>
+	</li>
+	<li>
+		<a class="blogsection" href="/52north/news/52dnorth-intergeo-2012">
+			52°North @INTERGEO 2012</a>
+	</li>
+	<li>
+		<a class="blogsection" href="/52north/news/earth-observation-capacity-building-portal-online-course-material">
+			Earth Observation Capacity Building Portal – online course material</a>
+	</li>
+	<li>
+		<a class="blogsection" href="/52north/news/ilwis-381-is-now-available">
+			ILWIS 3.8.1 is now available</a>
+	</li>
+	<li>
+		<a class="blogsection" href="/52north/news/52dnorth-student-innovation-prize-deadline-extended">
+			52°North Student Innovation Prize - deadline extended</a>
+	</li>
+</ul>
+		</div>
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" align="center">
+		<ul class="pagination"><li>&laquo;</li><li>&nbsp;<span>Start</span>&nbsp;</li><li>&nbsp;<span>Prev</span>&nbsp;</li><li>&nbsp;<span>1</span>&nbsp;</li><li>&nbsp;<strong><a href="/home/page-2" title="2">2</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/home/page-3" title="3">3</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/home/page-4" title="4">4</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/home/page-5" title="5">5</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/home/page-6" title="6">6</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/home/page-7" title="7">7</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/home/page-8" title="8">8</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/home/page-9" title="9">9</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/home/page-10" title="10">10</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/home/page-2" title="Next">Next</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="index.php?option=com_content&amp;view=frontpage&amp;limitstart=85" title="End">End</a></strong>&nbsp;</li><li>&raquo;</li></ul>		<br /><br />
+	</td>
+</tr>
+<tr>
+	<td valign="top" align="center">
+		Page 1 of 18	</td>
+</tr>
+</table>
+
+
+                            
+                        </div>
+
+                    </div>
+                    <!-- END: CONTENT -->
+
+                    
+                </div>
+
+                                <!-- BEGIN: RIGHT COLUMN -->
+                <div id="ja-col2"><div id="ja-col2-top"><div id="ja-col2-bot" class="clearfix">
+
+                                
+                            		<div class="moduletable">
+					<center>
+<a href="https://twitter.com/FiveTwoN" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @FiveTwoN</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</center>		</div>
+			<div class="moduletable_hilite">
+					<h3>52N Innovation Prize</h3>
+					<p><a href="/about/other-activities/current-call">Current Call</a></p>		</div>
+			<div class="moduletable_hilite">
+					<h3>Upcoming Events</h3>
+					<!-- <ul class="eventlistmod_hilite"> -->
+   <!-- <li> --><div>
+       <span class="location">
+               <a href="/events/details/203-52d-north-advisory-board-meeting">52° North Advisor...</a>
+            </span><br />
+      <span class="date">
+      14.12. - 14.12. @ 10:00      </span>
+      
+   <!-- </li> --></div>
+   <!-- <li> --><div>
+       <span class="location">
+               <a href="index.php?option=com_eventlist&amp;view=details&amp;id=205%3Agis-und-gdi-in-der-wasserwirtschaft">GIS und GDI in der...</a>
+            </span><br />
+      <span class="date">
+      22.01. - 23.01. @ 09:00      </span>
+      
+   <!-- </li> --></div>
+<!-- </ul> -->		</div>
+			<div class="moduletable">
+					<ul>
+<li><a href="http://52north.org/events/categories"><strong>Events Archive</strong></a></li>
+</ul>		</div>
+			<div class="moduletable_hilite">
+					<h3>52°North Blog</h3>
+					<div style="direction: ltr; text-align: left ! important">
+	<table cellpadding="0" cellspacing="0" class="moduletable_hilite">
+		<tr>
+		<td>
+			<ul class="newsfeed_hilite"  >
+							<li>
+									<a href="http://blog.52north.org/2012/11/26/greenland-for-visualisation-of-geospatial-data/" target="_blank">
+					Greenland for Visualisation of Geospatial Data</a>
+								</li>
+								<li>
+									<a href="http://blog.52north.org/2012/11/21/swe-for-smart-cities/" target="_blank">
+					SWE for Smart Cities</a>
+								</li>
+								<li>
+									<a href="http://blog.52north.org/2012/11/16/mentor-summit-2012/" target="_blank">
+					Mentor Summit 2012</a>
+								</li>
+								<li>
+									<a href="http://blog.52north.org/2012/11/12/innovation-prize-final-countdown/" target="_blank">
+					Innovation Prize – final countdown</a>
+								</li>
+								<li>
+									<a href="http://blog.52north.org/2012/10/29/photo-competition-geoinformatics-is-everywhere/" target="_blank">
+					Photo competition – Geoinformatics is everywhere</a>
+								</li>
+							</ul>
+		</td>
+		</tr>
+	</table>
+</div>
+		</div>
+			<div class="moduletable">
+					<h3>SSL @ 52°North</h3>
+					<table style="height: 120px;" border="0">
+<tbody>
+<tr>
+<td>52°North uses <a href="https://www.startssl.com/" target="_blank">StartSSL</a> certificates for securing communication. For easy usage please install the following certificates in your browser:<br />
+<ul>
+<li><a href="https://www.startssl.com/certs/ca.pem">CA Certificate</a></li>
+<!--<li><a href="https://www.startssl.com/certs/sub.class1.server.ca.pem">Class 1 Chainfile</a></li>-->
+<li><a href="https://www.startssl.com/certs/sub.class2.server.ca.pem">Class 2 Chainfile</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>		</div>
+			<div class="moduletable">
+					<h3>Login</h3>
+					<div id="login-wrap">
+<form action="/" method="post" name="login" id="login" >
+	
+			<label for="mod_login_username" class="ja-login-user">
+				<span>Username</span>
+				<input name="username" id="mod_login_username" type="text" class="inputbox" alt="username" size="10" />
+			</label>
+
+			<label for="mod_login_password" class="ja-login-password">
+				<span>Password</span>
+				<input type="password" id="mod_login_password" name="passwd" class="inputbox" size="10" alt="password" />
+			</label>
+
+			<label for="mod_login_remember">
+				<input type="hidden" name="remember" id="mod_login_remember" class="inputbox" value="yes" alt="Remember Me" />
+			</label>
+			<input type="submit" name="Submit" class="button" value="Login" />
+
+			<div class="ja-login-links">
+			<!--<a href="/user/reset">
+			Forgot your password?</a>-->
+			<!--<a href="/user/remind">
+			Forgot your username?</a>-->
+						</div>
+	
+	<input type="hidden" name="option" value="com_user" />
+	<input type="hidden" name="task" value="login" />
+	<input type="hidden" name="return" value="Lw==" />
+	<input type="hidden" name="3e87c497833ff427f2a05418bbafd46f" value="1" /></form>
+</div>
+		</div>
+	
+                        </div></div></div>
+                <!-- END: RIGHT COLUMN -->
+                
+            </div></div>
+
+                <!-- BEGIN: BOTTOM SPOTLIGHT -->
+        <div id="ja-botslwrap">
+<div style="margin: 0 auto; width: 920px;">
+            <div id="ja-botsl" class="clearfix">
+
+                                    <div class="ja-box-left" style="width: 24.98%;">
+                    		<div class="moduletable">
+					<h3>Communities</h3>
+					<ul id="mainlevel"><li><a href="communities/sensorweb/" class="mainlevel" >Sensor Web</a></li><li><a href="communities/geoprocessing" class="mainlevel" >Geoprocessing</a></li><li><a href="/communities/ilwis/" class="mainlevel" >ILWIS</a></li><li><a href="/communities/earth-observation/overview" class="mainlevel" >Earth Observation</a></li><li><a href="communities/security/" class="mainlevel" >Security &amp; Geo-RM</a></li><li><a href="/communities/semantics/" class="mainlevel" >Semantics</a></li><li><a href="/communities/geostatistics/" class="mainlevel" >Geostatistics</a></li><li><a href="/communities/3d-community/" class="mainlevel" >3D Community</a></li><li><a href="/communities/metadata-management-community/" class="mainlevel" >Metadata Management</a></li></ul>		</div>
+	
+                </div>
+                    
+                                    <div class="ja-box-center" style="width: 24.98%;">
+                    		<div class="moduletable">
+					<h3>Get Involved</h3>
+					<ul id="mainlevel"><li><a href="/about/get-involved/" class="mainlevel" >Get Involved</a></li><li><a href="/about/licensing/" class="mainlevel" >Licensing</a></li></ul>		</div>
+	
+                </div>
+                    
+
+                                    <div class="ja-box-center" style="width: 24.98%;">
+                    		<div class="moduletable">
+					<h3>Affiliations</h3>
+					<p>The 52° North affiliations:</p>
+<table style="width: 100%;" border="0" cellpadding="5">
+<tbody>
+<tr>
+<td><a href="http://www.opengeospatial.org/" target="_blank" title="OGC Associate Member"><img src="images/logos/ogc.gif" border="0" alt="OGC logo" style="border: 0;" /></a></td>
+</tr>
+<tr>
+<td><a href="http://www.sensorweb-alliance.org/" target="_blank" title="Sensor Web Alliance"><img src="images/logos/swa.gif" border="0" alt="Sensor Web Alliance Logo" style="border: 0;" /></a></td>
+</tr>
+</tbody>
+</table>		</div>
+	
+                </div>
+                    
+                                    <div class="ja-box-right" style="width: 24.98%;">
+                    		<div class="moduletable">
+					<h3>Cooperation Partners</h3>
+					<p>The 52°North principal cooperation partners</p>
+<table style="width: 100%;" border="0" cellpadding="5">
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="http://ifgi.uni-muenster.de" target="_blank" title="Institute for Geoinformatics"><img src="images/logos/ifgi.gif" border="0" alt="IfGI Logo" width="117" height="40" style="border: 0;" /></a></td>
+<td style="text-align: center;"><a href="http://www.conterra.de" target="_blank" title="con terra GmbH"><img src="images/logos/conterra_new.png" border="0" alt="con terra logo" width="81" height="40" style="border: 0;" /></a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><a href="http://www.esri.com" target="_blank" title="ESRI"><img src="images/logos/esri_new.gif" border="0" alt="esri Logo" width="110" height="40" style="border: 0;" /></a></td>
+<td style="text-align: center;"><a href="http://www.itc.nl" target="_blank" title="International Institute for Geo-Information  Science and Earth    Observation"><img src="images/logos/itc.gif" border="0" alt="ITC logo" width="34" height="40" style="border: 0;" /></a></td>
+</tr>
+</tbody>
+</table>		</div>
+	
+                </div>
+                    
+            </div>
+</div>
+		</div>
+        <!-- END: BOTTOM SPOTLIGHT -->
+        
+        <!-- BEGIN: FOOTER -->
+        <div id="ja-footerwrap">
+<div style="margin: 0 auto; width: 920px;">
+            <div id="ja-footer" class="clearfix">
+
+                
+                <ul id="mainlevel"><li><a href="/about/contact/" class="mainlevel" >Contact</a></li><li><a href="/about/imprint/" class="mainlevel" >Imprint</a></li></ul><small>Copyright &#169; 2012 52°North Initiative for Geospatial Open Source Software GmbH. All Rights Reserved.</small>
+<!--<small><a href="http://www.joomla.org">Joomla!</a> is Free Software released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU/GPL License.</a></small> -->
+
+
+            </div>
+</div>
+        </div>
+        <!-- END: FOOTER -->
+
+    </div>
+    <!--  -->
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://wiki.52north.org/piwik/" : "http://wiki.52north.org/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://wiki.52north.org/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+</body>
+
+</html>

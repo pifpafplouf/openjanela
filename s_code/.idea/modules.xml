@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/openjanela-app/openjanela-app.iml" filepath="$PROJECT_DIR$/openjanela-app/openjanela-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openjanela-commons/openjanela-commons.iml" filepath="$PROJECT_DIR$/openjanela-commons/openjanela-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openjanela-commons/openjanela-commons-components/openjanela-commons-components.iml" filepath="$PROJECT_DIR$/openjanela-commons/openjanela-commons-components/openjanela-commons-components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openjanela-commons/openjanela-commons-util/openjanela-commons-util.iml" filepath="$PROJECT_DIR$/openjanela-commons/openjanela-commons-util/openjanela-commons-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openjanela-lib/openjanela-lib.iml" filepath="$PROJECT_DIR$/openjanela-lib/openjanela-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openjanela-model/openjanela-model.iml" filepath="$PROJECT_DIR$/openjanela-model/openjanela-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openjanela-project.iml" filepath="$PROJECT_DIR$/openjanela-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openjanela-commons/openjanela-resources/openjanela-resources.iml" filepath="$PROJECT_DIR$/openjanela-commons/openjanela-resources/openjanela-resources.iml" />
+    </modules>
+  </component>
+</project>
+
